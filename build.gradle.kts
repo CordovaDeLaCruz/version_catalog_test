@@ -1,5 +1,5 @@
 group = "com.bcp.bank"
-version = "1.0-SNAPSHOT"
+version = "1.0.1.lts"
 
 plugins {
     `version-catalog`

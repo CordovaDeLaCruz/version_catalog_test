@@ -1,32 +1,64 @@
 [versions]
-mbbk-plugin = "1.0.0.lts"
+mbbk-plugin = "1.0.1.lts"
 
-android = "4.1.1.4"
-kotlinx-coroutines-core = "1.3.5"
+gradle = "7.4.2"
+maven-publish = "0.18.0"
 
-junit-jupiter-api = "5.6.2"
-junit-jupiter-engine = "5.6.2"
-junit-jupiter-params = "5.6.2"
+junit = "4.13.2"
+browser = "1.3.0"
+lifecycleViewmodel = "2.3.1"
+
+dynatrace = "8.217.1.1003"
+rsaSecureID = "2.8.0"
+
+kotlin = "1.5.31"
+
+coreKtx = "1.6.0"
+appCompat = "1.3.1"
+
+android-material = "1.4.0"
+jFrog = "4.15.1"
+
+core-network = "2.2.0"
+core-util = "1.0.0"
+core-storage = "1.1.0"
+core-uiComponent = "1.3.12"
+
+modelBCP = "1.0.0"
+navigator = "1.0.0"
 
 [libraries]
+androidGradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+mavenPublishPlugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish" }
 
-android = { module = "com.google.android:android", version.ref = "android" }
-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+junit = { module = "junit:junit", version.ref = "junit" }
+browser = { module = "androidx.browser:browser", version.ref = "browser" }
+lifecycleViewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodel" }
 
-junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit-jupiter-api" }
-junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
-junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit-jupiter-params" }
+dynatrace = { module = "com.dynatrace.agent:agent-android", version.ref = "dynatrace" }
+rsaSecureID = { module = "com.rsa:SecurIDLib", version.ref = "rsaSecureID" }
 
+gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
+
+material = { module = "com.google.android.material:material", version.ref = "android-material" }
+jfrogExtractor = { module = "org.jfrog.buildinfo:build-info-extractor-gradle", version.ref = "jFrog" }
+
+core-network = { module = "com.bcp.core:networking", version.ref = "core-network" }
+core-util = { module = "com.bcp.core:util", version.ref = "core-util" }
+core-storage = { module = "com.bcp.core:storage", version.ref = "core-storage" }
+core-UIComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "core-uiComponent" }
+
+MBBK-modelBCP = { module = "com.bcp.bank.modelbcp:library", version.ref = "modelBCP" }
+MBBK-navigator = { module = "com.bcp.bank.navigator:library", version.ref = "navigator" }
 
 [bundles]
-moduleBaseImplementation = [
-    "android",
-    "kotlinx-coroutines-core"
-]
-moduleBaseTestImplementation = [
-    "junit-jupiter-api",
-    "junit-jupiter-engine",
-    "junit-jupiter-params"
+buildScriptDependencies = [
+    "androidGradlePlugin",
+    "gradlePlugin",
+    "mavenPublishPlugin"
 ]
 
 [plugins]
