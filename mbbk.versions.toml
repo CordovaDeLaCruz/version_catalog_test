@@ -28,6 +28,7 @@ modelBCP = "1.0.0"
 navigator = "1.0.0"
 
 [libraries]
+
 androidGradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 mavenPublishPlugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish" }
 
@@ -51,8 +52,8 @@ core-util = { module = "com.bcp.core:util", version.ref = "core-util" }
 core-storage = { module = "com.bcp.core:storage", version.ref = "core-storage" }
 core-UIComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "core-uiComponent" }
 
-MBBK-modelBCP = { module = "com.bcp.bank.modelbcp:library", version.ref = "modelBCP" }
-MBBK-navigator = { module = "com.bcp.bank.navigator:library", version.ref = "navigator" }
+mbbk-modelBCP = { module = "com.bcp.bank.modelbcp:library", version.ref = "modelBCP" }
+mbbk-navigator = { module = "com.bcp.bank.navigator:library", version.ref = "navigator" }
 
 [bundles]
 buildScriptDependencies = [
@@ -60,6 +61,7 @@ buildScriptDependencies = [
     "gradlePlugin",
     "mavenPublishPlugin"
 ]
+
 
 [plugins]
 mbbk = { id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
