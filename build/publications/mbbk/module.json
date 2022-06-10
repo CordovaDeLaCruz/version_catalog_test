@@ -24,11 +24,11 @@
         {
           "name": "gradle-version-catalogs-1.0.1.lts.toml",
           "url": "gradle-version-catalogs-1.0.1.lts.toml",
-          "size": 2458,
-          "sha512": "1b44e990938b0daf4dcf8305197b4da90973eb554e32fae6241a5bd164c40568aa308e9df982583e4adbfac47fa860f12811911045dd1a337e99ef910f73a61a",
-          "sha256": "cbbcda3b4f65e1e508473dc7f754da1a807eff6103a9e9796999e6f5553c0f89",
-          "sha1": "2f0520d913851902327bd4d9c7d0454bdaffd674",
-          "md5": "99300dc6ec5f571e8d61b5df130a34b0"
+          "size": 2605,
+          "sha512": "3c77774dc5bce6700f7d68bf734f2b712fbe52c5789b04899ebe3aabe7298e73c864435c110672b3d79ed7dfad35444a39b759dd5084368fde72e07fb43625bc",
+          "sha256": "7d79293cecd1b618f74c8698bfb9e52da79d407771a272ffd7431467b3c729db",
+          "sha1": "0bf83f7f40fe07b961870eadd6e6e20718330741",
+          "md5": "051b7dccceef4e3d5c4ece82b4f98005"
         }
       ]
     }

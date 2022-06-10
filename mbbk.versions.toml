@@ -1,4 +1,11 @@
 [versions]
+
+compileSdk = "31"
+minSdk = "16"
+targetSdk = "31"
+
+jvmTarget = "1.8"
+
 mbbk-plugin = "1.0.1.lts"
 
 gradle = "7.0.2"
@@ -60,6 +67,15 @@ buildScriptDependencies = [
     "androidGradlePlugin",
     "gradlePlugin",
     "mavenPublishPlugin"
+]
+
+baseImplementation = [
+    "coreKtx",
+    "material"
+]
+
+baseTestImplementation = [
+    "junit"
 ]
 
 
