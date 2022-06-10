@@ -1,7 +1,7 @@
 [versions]
 mbbk-plugin = "1.0.1.lts"
 
-gradle = "7.4.2"
+gradle = "7.0.2"
 maven-publish = "0.18.0"
 
 junit = "4.13.2"
