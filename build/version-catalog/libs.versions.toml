@@ -17,6 +17,7 @@ core-util = "1.0.0"
 coreKtx = "1.6.0"
 dynatrace = "8.217.1.1003"
 gradle = "7.0.2"
+gson = "2.8.2"
 jFrog = "4.15.1"
 junit = "4.13.2"
 jvmTarget = "1.8"
@@ -41,6 +42,7 @@ core-util = {group = "com.bcp.core", name = "util", version.ref = "core-util" }
 coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 dynatrace = {group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatrace" }
 gradlePlugin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+gson = {group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 jfrogExtractor = {group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jFrog" }
 junit = {group = "junit", name = "junit", version.ref = "junit" }
 lifecycleViewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodel" }
