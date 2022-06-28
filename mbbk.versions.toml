@@ -39,8 +39,8 @@ navigator = "1.0.0"
 
 [libraries]
 
-androidGradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
-mavenPublishPlugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish" }
+toolsBuildGradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+mavenPluginPublish = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish" }
 
 junit = { module = "junit:junit", version.ref = "junit" }
 browser = { module = "androidx.browser:browser", version.ref = "browser" }
@@ -49,7 +49,7 @@ lifecycleViewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", ve
 dynatrace = { module = "com.dynatrace.agent:agent-android", version.ref = "dynatrace" }
 rsaSecureID = { module = "com.rsa:SecurIDLib", version.ref = "rsaSecureID" }
 
-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+gradlePluginKotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 
 coreKtx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
 appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
@@ -69,9 +69,9 @@ mbbk-navigator = { module = "com.bcp.bank.navigator:library", version.ref = "nav
 
 [bundles]
 buildScriptDependencies = [
-    "androidGradlePlugin",
-    "gradlePlugin",
-    "mavenPublishPlugin"
+    "toolsBuildGradle",
+    "gradlePluginKotlin",
+    "mavenPluginPublish"
 ]
 
 baseImplementation = [

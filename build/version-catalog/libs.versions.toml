@@ -32,7 +32,6 @@ rsaSecureID = "2.8.0"
 targetSdk = "31"
 
 [libraries]
-androidGradlePlugin = {group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
 appCompat = {group = "androidx.appcompat", name = "appcompat", version.ref = "appCompat" }
 browser = {group = "androidx.browser", name = "browser", version.ref = "browser" }
 core-UIComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "core-uiComponent" }
@@ -41,21 +40,22 @@ core-storage = {group = "com.bcp.core", name = "storage", version.ref = "core-st
 core-util = {group = "com.bcp.core", name = "util", version.ref = "core-util" }
 coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 dynatrace = {group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatrace" }
-gradlePlugin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+gradlePluginKotlin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 gson = {group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 jfrogExtractor = {group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jFrog" }
 junit = {group = "junit", name = "junit", version.ref = "junit" }
 lifecycleViewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodel" }
 material = {group = "com.google.android.material", name = "material", version.ref = "android-material" }
-mavenPublishPlugin = {group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "maven-publish" }
+mavenPluginPublish = {group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "maven-publish" }
 mbbk-modelBCP = {group = "com.bcp.bank.modelbcp", name = "library", version.ref = "modelBCP" }
 mbbk-navigator = {group = "com.bcp.bank.navigator", name = "library", version.ref = "navigator" }
 rsaSecureID = {group = "com.rsa", name = "SecurIDLib", version.ref = "rsaSecureID" }
+toolsBuildGradle = {group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
 
 [bundles]
 baseImplementation = ["coreKtx", "material"]
 baseTestImplementation = ["junit"]
-buildScriptDependencies = ["androidGradlePlugin", "gradlePlugin", "mavenPublishPlugin"]
+buildScriptDependencies = ["toolsBuildGradle", "gradlePluginKotlin", "mavenPluginPublish"]
 
 [plugins]
 mbbk = {id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
