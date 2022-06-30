@@ -28,6 +28,7 @@ jFrog = "4.15.1"
 artifactory-plugin = "4.1.1"
 
 gson = "2.8.2"
+lottie = "3.5.0"
 
 core-network = "2.2.0"
 core-util = "1.0.0"
@@ -59,6 +60,7 @@ material = { module = "com.google.android.material:material", version.ref = "and
 jfrogExtractor = { module = "org.jfrog.buildinfo:build-info-extractor-gradle", version.ref = "jFrog" }
 
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 
 core-network = { module = "com.bcp.core:networking", version.ref = "core-network" }
 core-util = { module = "com.bcp.core:util", version.ref = "core-util" }

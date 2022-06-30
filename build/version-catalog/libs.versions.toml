@@ -23,6 +23,7 @@ junit = "4.13.2"
 jvmTarget = "1.8"
 kotlin = "1.5.31"
 lifecycleViewmodel = "2.3.1"
+lottie = "3.5.0"
 maven-publish = "0.18.0"
 mbbk-plugin = "1.0.1.lts"
 mbbkUtil = "1.0.0"
@@ -46,6 +47,7 @@ gson = {group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 jfrogExtractor = {group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jFrog" }
 junit = {group = "junit", name = "junit", version.ref = "junit" }
 lifecycleViewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodel" }
+lottie = {group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
 material = {group = "com.google.android.material", name = "material", version.ref = "android-material" }
 mavenPluginPublish = {group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "maven-publish" }
 mbbk-modelBCP = {group = "com.bcp.bank.modelbcp", name = "library", version.ref = "modelBCP" }
