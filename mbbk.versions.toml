@@ -30,6 +30,13 @@ artifactory-plugin = "4.1.1"
 gson = "2.8.2"
 lottie = "3.5.0"
 androidx-room = "2.2.5"
+lifecycle-viewmodel-ktx = "2.2.0"
+
+play-services-places = "17.0.0"
+play-services-location = "17.1.0"
+android-maps-utils = "2.1.0"
+huawei-hms-maps = "5.0.3.302"
+huawei-hms-location = "5.0.0.301"
 
 core-network = "2.2.0"
 core-util = "1.0.0"
@@ -40,6 +47,8 @@ core-auth = "1.2.5"
 modelBCP = "1.0.0"
 navigator = "1.0.0"
 mbbkUtil = "1.0.0"
+mbbkBase = "1.0.0"
+mbbkUsuallydata = "1.0.0"
 
 
 [libraries]
@@ -74,10 +83,21 @@ core-auth = { module = "com.bcp.core:auth", version.ref = "core-auth" }
 mbbk-modelBCP = { module = "com.bcp.bank.modelbcp:library", version.ref = "modelBCP" }
 mbbk-navigator = { module = "com.bcp.bank.navigator:library", version.ref = "navigator" }
 mbbk-util = { module = "com.bcp.bank.util:library", version.ref = "mbbkUtil" }
+mbbk-base = { module = "com.bcp.bank.bcp.base:library", version.ref = "mbbkBase" }
+mbbk-usuallydata = { module = "com.bcp.bank.usually.data:library", version.ref = "mbbkUsuallydata"}
+
 
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidx-room" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidx-room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "androidx-room" }
+
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+
+play-services-places = { module = "com.google.android.gms:play-services-places", version.ref = "play-services-places" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }
+android-maps-utils = { module = "com.google.maps.android:android-maps-utils", version.ref = "android-maps-utils" }
+huawei-hms-maps = { module = "com.huawei.hms:maps", version.ref = "huawei-hms-maps" }
+huawei-hms-location = { module = "com.huawei.hms:location", version.ref = "huawei-hms-location" }
 
 [bundles]
 buildScriptDependencies = [
