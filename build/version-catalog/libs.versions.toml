@@ -13,7 +13,7 @@ artifactory-plugin = "4.1.1"
 browser = "1.3.0"
 compileSdk = "31"
 core-auth = "1.2.5"
-core-network = "2.2.0"
+core-network = "2.3.0"
 core-resources = "1.4.5"
 core-storage = "1.1.0"
 core-uiComponent = "1.3.17"
@@ -67,7 +67,7 @@ lifecycleViewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-
 lottie = {group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
 material = {group = "com.google.android.material", name = "material", version.ref = "android-material" }
 mavenPluginPublish = {group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "maven-publish" }
-mbbk-base = {group = "com.bcp.bank.bcp.base", name = "library", version.ref = "mbbkBase" }
+mbbk-base = {group = "com.bcp.bank.bcp", name = "library", version.ref = "mbbkBase" }
 mbbk-modelBCP = {group = "com.bcp.bank.modelbcp", name = "library", version.ref = "modelBCP" }
 mbbk-navigator = {group = "com.bcp.bank.navigator", name = "library", version.ref = "navigator" }
 mbbk-usuallydata = {group = "com.bcp.bank.usually.data", name = "library", version.ref = "mbbkUsuallydata" }
