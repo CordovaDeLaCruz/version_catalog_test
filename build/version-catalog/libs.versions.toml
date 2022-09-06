@@ -39,6 +39,7 @@ mbbk-plugin = "1.0.1.lts"
 mbbkBase = "1.0.0"
 mbbkEnrollment = "1.0.0"
 mbbkMaps = "1.0.0"
+mbbkModuleManager = "1.0.0"
 mbbkUsuallydata = "1.0.0"
 mbbkUtil = "1.0.0"
 minSdk = "21"
@@ -82,6 +83,7 @@ mbbk-base = {group = "com.bcp.bank.bcp", name = "library", version.ref = "mbbkBa
 mbbk-enrollment = {group = "com.bcp.bank.bcp.feature.enrollment", name = "library", version.ref = "mbbkEnrollment" }
 mbbk-maps = {group = "com.bcp.bank.bcp.maps", name = "library", version.ref = "mbbkMaps" }
 mbbk-modelBCP = {group = "com.bcp.bank.modelbcp", name = "library", version.ref = "modelBCP" }
+mbbk-modulemanager = {group = "com.bcp.bank.bcp.modulemanager", name = "library", version.ref = "mbbkModuleManager" }
 mbbk-navigator = {group = "com.bcp.bank.navigator", name = "library", version.ref = "navigator" }
 mbbk-usuallydata = {group = "com.bcp.bank.usually.data", name = "library", version.ref = "mbbkUsuallydata" }
 mbbk-util = {group = "com.bcp.bank.util", name = "library", version.ref = "mbbkUtil" }
