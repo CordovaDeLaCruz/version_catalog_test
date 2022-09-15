@@ -15,8 +15,12 @@ val defaultFiles = listOf(
     "dependencies/settings/mbbk.bundles.settings.toml",
     "dependencies/settings/mbbk.libraries.settings.toml",
     "dependencies/settings/mbbk.versions.settings.toml",
-//    "dependencies/core/mbbk.versions.core.toml",
-//    "dependencies/core/mbbk.libraries.core.toml",
+
+    "dependencies/core/mbbk.versions.core.toml",
+    "dependencies/core/mbbk.libraries.core.toml",
+
+    "dependencies/lts/mbbk.versions.lts.toml",
+    "dependencies/lts/mbbk.libraries.lts.toml",
 )
 
 catalog {

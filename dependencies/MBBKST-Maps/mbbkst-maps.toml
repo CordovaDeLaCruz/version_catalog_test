@@ -1,2 +1,3 @@
 [versions]
-mbbkModuleManager = "0.0.1"
+bankBcpModulemanager = "0.0.1"
+bankLinterPlugin = "0.0.1"

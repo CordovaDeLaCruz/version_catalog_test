@@ -8,10 +8,25 @@ format.version = "1.1"
 androidMapsUtils = "2.1.0"
 appcompat = "1.3.1"
 artifactory-plugin = "4.1.1"
+bankBcp = "1.0.0"
+bankBcpFeatureEnrollment = "1.0.0"
+bankBcpMaps = "1.0.0"
+bankBcpModulemanager = "0.0.1"
+bankLinterPlugin = "0.0.1"
+bankModelbcp = "1.0.0"
+bankNavigator = "1.0.0"
+bankUsuallyData = "1.0.0"
+bankUtil = "1.0.0"
 browser = "1.3.0"
+ciam = "1.3.15"
 compileSdk = "31"
 constraintlayout = "1.1.3"
+coreAuth = "1.2.5"
 coreKtx = "1.6.0"
+coreNetworking = "2.3.0"
+coreResources = "1.4.5"
+coreStorage = "1.1.0"
+coreUtil = "1.0.0"
 dynatraceAgentAndroid = "8.217.1.1003"
 gradle = "7.1.3"
 gradleMavenPluginPublish = "0.18.0"
@@ -27,7 +42,7 @@ lifecycleViewmodelKtx = "2.2.0"
 lottie = "3.5.0"
 material = "1.4.0"
 mbbk-plugin = "1.0.1.lts"
-mbbkModuleManager = "0.0.1"
+mbbkUiComponent = "1.3.17"
 minSdk = "21"
 navigationFragmentKtx = "2.3.0"
 navigationUiKtx = "2.3.0"
@@ -43,9 +58,24 @@ targetSdk = "31"
 [libraries]
 androidMapsUtils = {group = "com.google.maps.android", name = "android-maps-utils", version.ref = "androidMapsUtils" }
 appcompat = {group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+bankBcp = {group = "com.bcp.bank.bcp", name = "library", version.ref = "bankBcp" }
+bankBcpFeatureEnrollment = {group = "com.bcp.bank.bcp.feature.enrollment", name = "library", version.ref = "bankBcpFeatureEnrollment" }
+bankBcpMaps = {group = "com.bcp.bank.bcp.maps", name = "library", version.ref = "bankBcpMaps" }
+bankBcpModulemanager = {group = "com.bcp.bank.bcp.modulemanager", name = "library", version.ref = "bankBcpModulemanager" }
+bankLinterPlugin = {group = "com.bcp.bank.linter", name = "plugin", version.ref = "bankLinterPlugin" }
+bankModelbcp = {group = "com.bcp.bank.modelbcp", name = "library", version.ref = "bankModelbcp" }
+bankNavigator = {group = "com.bcp.bank.navigator", name = "library", version.ref = "bankNavigator" }
+bankUsuallyData = {group = "com.bcp.bank.usually.data", name = "library", version.ref = "bankUsuallyData" }
+bankUtil = {group = "com.bcp.bank.util", name = "library", version.ref = "bankUtil" }
 browser = {group = "androidx.browser", name = "browser", version.ref = "browser" }
+ciam = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "ciam" }
 constraintlayout = {group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+coreAuth = {group = "com.bcp.core", name = "auth", version.ref = "coreAuth" }
 coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coreNetworking = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }
+coreResources = {group = "com.bcp.core", name = "resources", version.ref = "coreResources" }
+coreStorage = {group = "com.bcp.core", name = "storage", version.ref = "coreStorage" }
+coreUtil = {group = "com.bcp.core", name = "util", version.ref = "coreUtil" }
 dynatraceAgentAndroid = {group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatraceAgentAndroid" }
 gradle = {group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
 gradleMavenPluginPublish = {group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "gradleMavenPluginPublish" }
@@ -59,6 +89,7 @@ lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extension
 lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 lottie = {group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
 material = {group = "com.google.android.material", name = "material", version.ref = "material" }
+mbbkUiComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "mbbkUiComponent" }
 navigationFragmentKtx = {group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 navigationUiKtx = {group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 playServicesAuthApiPhone = {group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }

@@ -1,11 +1,10 @@
 [libraries]
-core-network = { module = "com.bcp.core:networking", version.ref = "core-network" }
-core-util = { module = "com.bcp.core:util", version.ref = "core-util" }
-core-storage = { module = "com.bcp.core:storage", version.ref = "core-storage" }
-core-UIComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "core-uiComponent" }
-core-resources = { module = "com.bcp.core:resources", version.ref = "core-resources" }
 
-core-auth = { module = "com.bcp.core:auth", version.ref = "core-auth" }
-
-
+bankLinterPlugin = { module = "com.bcp.bank.linter:plugin", version.ref = "bankLinterPlugin" }
 ciam = { module = "com.bcp.core.mbbk:ciam", version.ref = "ciam" }
+coreAuth = { module = "com.bcp.core:auth", version.ref = "coreAuth" }
+coreNetworking = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
+coreResources = { module = "com.bcp.core:resources", version.ref = "coreResources" }
+coreStorage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
+coreUtil = { module = "com.bcp.core:util", version.ref = "coreUtil" }
+mbbkUiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "mbbkUiComponent" }

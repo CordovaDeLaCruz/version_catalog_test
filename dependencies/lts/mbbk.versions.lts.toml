@@ -1,9 +1,10 @@
 [versions]
-modelBCP = "1.0.0"
-navigator = "1.0.0"
-mbbkUtil = "1.0.0"
-mbbkBase = "1.0.0"
-mbbkUsuallydata = "1.0.0"
-mbbkMaps = "1.0.0"
-mbbkEnrollment = "1.0.0"
-mbbkModuleManager = "1.0.0"
+
+bankBcp = "1.0.0"
+bankBcpFeatureEnrollment = "1.0.0"
+bankBcpMaps = "1.0.0"
+bankBcpModulemanager = "1.0.0"
+bankModelbcp = "1.0.0"
+bankNavigator = "1.0.0"
+bankUsuallyData = "1.0.0"
+bankUtil = "1.0.0"
