@@ -1,3 +1,5 @@
 [versions]
 bankBcpModulemanager = "0.0.1"
 bankLinterPlugin = "0.0.1"
+bankModelbcp = "0.0.1"
+
