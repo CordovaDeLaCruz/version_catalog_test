@@ -3,7 +3,7 @@
   "component": {
     "group": "com.bcp.bank",
     "module": "gradle-version-catalogs",
-    "version": "1.0.1.lts",
+    "version": "defined-by-git-tag",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -22,13 +22,13 @@
       },
       "files": [
         {
-          "name": "gradle-version-catalogs-1.0.1.lts.toml",
-          "url": "gradle-version-catalogs-1.0.1.lts.toml",
-          "size": 5906,
-          "sha512": "54941dccbbb618b5aea01444dde446010dc4b1a517e7dd91a95b87845d747aa2dff6050e39f1c240cbf107950003efd42d68eb5c53b78fa5dd92d0729a5ac29b",
-          "sha256": "d2b47f39d9520473508d8d7e0923c67f20a54374374918230ec4b31b48bf1021",
-          "sha1": "5a3131e5f29c79700202a26b7fa8162214af75f3",
-          "md5": "ee771df55beb4bf09cff586f8925fb64"
+          "name": "gradle-version-catalogs-defined-by-git-tag.toml",
+          "url": "gradle-version-catalogs-defined-by-git-tag.toml",
+          "size": 4127,
+          "sha512": "86f17ce6108efc0e69908af4fb39ca48e47479cd950c129bed092e7a777155a577331a368b958c131ac42cdd760058ec1ef8269c662f4c0d0ecc7fc663a3f11f",
+          "sha256": "3f03fa42e2e26ff2965f29c7c2a296b3e1190a0328d477b6ef3d82bbb6e36a21",
+          "sha1": "455f67c0e863be06bb1ada837ed25f4497d626db",
+          "md5": "dc6f1eb79a3c1c3f62d12dda3449aaf6"
         }
       ]
     }

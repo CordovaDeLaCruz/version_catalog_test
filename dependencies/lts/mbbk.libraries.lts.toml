@@ -1,0 +1,10 @@
+[libraries]
+mbbk-modelBCP = { module = "com.bcp.bank.modelbcp:library", version.ref = "modelBCP" }
+mbbk-navigator = { module = "com.bcp.bank.navigator:library", version.ref = "navigator" }
+mbbk-util = { module = "com.bcp.bank.util:library", version.ref = "mbbkUtil" }
+mbbk-base = { module = "com.bcp.bank.bcp:library", version.ref = "mbbkBase" }
+mbbk-usuallydata = { module = "com.bcp.bank.usually.data:library", version.ref = "mbbkUsuallydata"}
+mbbk-maps = { module = "com.bcp.bank.bcp.maps:library", version.ref = "mbbkMaps" }
+mbbk-enrollment = { module = "com.bcp.bank.bcp.feature.enrollment:library", version.ref = "mbbkEnrollment" }
+mbbk-modulemanager = { module = "com.bcp.bank.bcp.modulemanager:library", version.ref = "mbbkModuleManager" }
+

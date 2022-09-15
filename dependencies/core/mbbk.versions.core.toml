@@ -1,0 +1,9 @@
+[versions]
+
+core-network = "2.3.0"
+core-util = "1.0.0"
+core-storage = "1.1.0"
+core-uiComponent = "1.3.17"
+core-resources = "1.4.5"
+core-auth = "1.2.5"
+ciam = "1.3.15"

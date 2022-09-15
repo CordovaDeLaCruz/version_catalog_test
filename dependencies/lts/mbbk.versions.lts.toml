@@ -1,0 +1,9 @@
+[versions]
+modelBCP = "1.0.0"
+navigator = "1.0.0"
+mbbkUtil = "1.0.0"
+mbbkBase = "1.0.0"
+mbbkUsuallydata = "1.0.0"
+mbbkMaps = "1.0.0"
+mbbkEnrollment = "1.0.0"
+mbbkModuleManager = "1.0.0"
