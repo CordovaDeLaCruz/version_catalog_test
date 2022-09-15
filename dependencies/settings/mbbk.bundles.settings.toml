@@ -1,7 +1,7 @@
 [bundles]
 buildScriptDependencies = [
     "gradle",
-    "kotlinGradlePlugin",
+    "kotlinGradle",
     "gradleMavenPluginPublish"
 ]
 

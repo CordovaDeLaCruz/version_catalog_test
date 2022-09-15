@@ -1,6 +1,6 @@
 [libraries]
 
-bankLinterPlugin = { module = "com.bcp.bank.linter:plugin", version.ref = "bankLinterPlugin" }
+bankLinter = { module = "com.bcp.bank.linter:plugin", version.ref = "bankLinter" }
 ciam = { module = "com.bcp.core.mbbk:ciam", version.ref = "ciam" }
 coreAuth = { module = "com.bcp.core:auth", version.ref = "coreAuth" }
 coreNetworking = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }

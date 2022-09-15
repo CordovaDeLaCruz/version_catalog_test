@@ -13,7 +13,7 @@ huaweiHmsLocation = { module = "com.huawei.hms:location", version.ref = "huaweiH
 huaweiHmsMaps = { module = "com.huawei.hms:maps", version.ref = "huaweiHmsMaps" }
 jfrogBuildInfoExtractorGradle = { module = "org.jfrog.buildinfo:build-info-extractor-gradle", version.ref = "jfrogBuildInfoExtractorGradle" }
 junit = { module = "junit:junit", version.ref = "junit" }
-kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlinGradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradle" }
 lifecycleExtensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions"}
 lifecycleViewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }

@@ -12,7 +12,7 @@ bankBcp = "1.0.0"
 bankBcpFeatureEnrollment = "1.0.0"
 bankBcpMaps = "1.0.0"
 bankBcpModulemanager = "0.0.1"
-bankLinterPlugin = "0.0.1"
+bankLinter = "0.0.1"
 bankModelbcp = "0.0.1"
 bankNavigator = "1.0.0"
 bankUsuallyData = "1.0.0"
@@ -36,7 +36,7 @@ huaweiHmsMaps = "5.0.3.302"
 jfrogBuildInfoExtractorGradle = "4.15.1"
 junit = "4.13.2"
 jvmTarget = "1.8"
-kotlinGradlePlugin = "1.6.21"
+kotlinGradle = "1.6.21"
 lifecycleExtensions = "2.1.0"
 lifecycleViewmodelKtx = "2.2.0"
 lottie = "3.5.0"
@@ -62,7 +62,7 @@ bankBcp = {group = "com.bcp.bank.bcp", name = "library", version.ref = "bankBcp"
 bankBcpFeatureEnrollment = {group = "com.bcp.bank.bcp.feature.enrollment", name = "library", version.ref = "bankBcpFeatureEnrollment" }
 bankBcpMaps = {group = "com.bcp.bank.bcp.maps", name = "library", version.ref = "bankBcpMaps" }
 bankBcpModulemanager = {group = "com.bcp.bank.bcp.modulemanager", name = "library", version.ref = "bankBcpModulemanager" }
-bankLinterPlugin = {group = "com.bcp.bank.linter", name = "plugin", version.ref = "bankLinterPlugin" }
+bankLinter = {group = "com.bcp.bank.linter", name = "plugin", version.ref = "bankLinter" }
 bankModelbcp = {group = "com.bcp.bank.modelbcp", name = "library", version.ref = "bankModelbcp" }
 bankNavigator = {group = "com.bcp.bank.navigator", name = "library", version.ref = "bankNavigator" }
 bankUsuallyData = {group = "com.bcp.bank.usually.data", name = "library", version.ref = "bankUsuallyData" }
@@ -84,7 +84,7 @@ huaweiHmsLocation = {group = "com.huawei.hms", name = "location", version.ref = 
 huaweiHmsMaps = {group = "com.huawei.hms", name = "maps", version.ref = "huaweiHmsMaps" }
 jfrogBuildInfoExtractorGradle = {group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jfrogBuildInfoExtractorGradle" }
 junit = {group = "junit", name = "junit", version.ref = "junit" }
-kotlinGradlePlugin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlinGradle = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlinGradle" }
 lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
 lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 lottie = {group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
@@ -103,7 +103,7 @@ rsaSecurIDLib = {group = "com.rsa", name = "SecurIDLib", version.ref = "rsaSecur
 [bundles]
 baseImplementation = ["coreKtx", "material"]
 baseTestImplementation = ["junit"]
-buildScriptDependencies = ["gradle", "kotlinGradlePlugin", "gradleMavenPluginPublish"]
+buildScriptDependencies = ["gradle", "kotlinGradle", "gradleMavenPluginPublish"]
 
 [plugins]
 mbbk = {id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
