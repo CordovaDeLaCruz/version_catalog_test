@@ -1,0 +1,29 @@
+[libraries]
+
+androidMapsUtils = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtils" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+browser = { module = "androidx.browser:browser", version.ref = "browser" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+dynatraceAgentAndroid = { module = "com.dynatrace.agent:agent-android", version.ref = "dynatraceAgentAndroid" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+gradleMavenPluginPublish = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "gradleMavenPluginPublish" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+huaweiHmsLocation = { module = "com.huawei.hms:location", version.ref = "huaweiHmsLocation" }
+huaweiHmsMaps = { module = "com.huawei.hms:maps", version.ref = "huaweiHmsMaps" }
+jfrogBuildInfoExtractorGradle = { module = "org.jfrog.buildinfo:build-info-extractor-gradle", version.ref = "jfrogBuildInfoExtractorGradle" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinGradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradle" }
+lifecycleExtensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions"}
+lifecycleViewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+navigationFragmentKtx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigationUiKtx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+playServicesAuthApiPhone = { module = "com.google.android.gms:play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
+playServicesLocation = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+playServicesPlaces = { module = "com.google.android.gms:play-services-places", version.ref = "playServicesPlaces" }
+roomCompiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+roomKtx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+roomRuntime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+rsaSecurIDLib = { module = "com.rsa:SecurIDLib", version.ref = "rsaSecurIDLib" }

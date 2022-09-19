@@ -1,0 +1,2 @@
+[plugins]
+mbbk = { id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }

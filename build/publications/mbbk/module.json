@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bcp.bank",
+    "module": "gradle-version-catalogs",
+    "version": "defined-by-git-tag",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "gradle-version-catalogs-defined-by-git-tag.toml",
+          "url": "gradle-version-catalogs-defined-by-git-tag.toml",
+          "size": 5980,
+          "sha512": "a0cdad925153872553147ce7815359150f9bbe22e3cecb5ee774dbcf572d9211f9cc27694486bc6ac057f72a8af92b48a6aeefe747fec3b8d9b4405ad6ecb698",
+          "sha256": "3d8478dbe2f8582d056aa642a96076cb4c2e4af0e904cc1d14ef41e94aa19d34",
+          "sha1": "e76bde769459123f0278ab4947e099cd40d5123e",
+          "md5": "5897d855c6c7a5f03564e299d6b53393"
+        }
+      ]
+    }
+  ]
+}

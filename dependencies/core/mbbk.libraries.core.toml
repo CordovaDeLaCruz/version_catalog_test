@@ -1,0 +1,10 @@
+[libraries]
+
+bankLinter = { module = "com.bcp.bank.linter:plugin", version.ref = "bankLinter" }
+ciam = { module = "com.bcp.core.mbbk:ciam", version.ref = "ciam" }
+coreAuth = { module = "com.bcp.core:auth", version.ref = "coreAuth" }
+coreNetworking = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
+coreResources = { module = "com.bcp.core:resources", version.ref = "coreResources" }
+coreStorage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
+coreUtil = { module = "com.bcp.core:util", version.ref = "coreUtil" }
+mbbkUiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "mbbkUiComponent" }

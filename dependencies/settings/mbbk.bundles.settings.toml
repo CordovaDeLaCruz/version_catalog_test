@@ -1,0 +1,15 @@
+[bundles]
+buildScriptDependencies = [
+    "gradle",
+    "kotlinGradle",
+    "gradleMavenPluginPublish"
+]
+
+baseImplementation = [
+    "coreKtx",
+    "material"
+]
+
+baseTestImplementation = [
+    "junit"
+]
