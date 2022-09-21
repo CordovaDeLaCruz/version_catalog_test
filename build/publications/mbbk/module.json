@@ -25,10 +25,10 @@
           "name": "gradle-version-catalogs-defined-by-git-tag.toml",
           "url": "gradle-version-catalogs-defined-by-git-tag.toml",
           "size": 5980,
-          "sha512": "a0cdad925153872553147ce7815359150f9bbe22e3cecb5ee774dbcf572d9211f9cc27694486bc6ac057f72a8af92b48a6aeefe747fec3b8d9b4405ad6ecb698",
-          "sha256": "3d8478dbe2f8582d056aa642a96076cb4c2e4af0e904cc1d14ef41e94aa19d34",
-          "sha1": "e76bde769459123f0278ab4947e099cd40d5123e",
-          "md5": "5897d855c6c7a5f03564e299d6b53393"
+          "sha512": "8a7fe01fc8acde279027b58042afb6bb273893416d455b0592c94ffc25897f143128a0d7aaaf0151f6ceee7c3668bd41ed80ef7252422b3782253d793031ba96",
+          "sha256": "9de73795503660e1eb0fde2a1ce602ff9f25f86c5ce5e9b72c1845d99600ddb9",
+          "sha1": "036d013393f545730dca8ba33446957a3fe5feb1",
+          "md5": "4ab9351401620a076479d72167f255b6"
         }
       ]
     }
