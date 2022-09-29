@@ -6,7 +6,7 @@ format.version = "1.1"
 
 [versions]
 androidMapsUtils = "2.1.0"
-appcompat = "1.2.0"
+appcompat = "1.3.0"
 artifactory-plugin = "4.1.1"
 bankLinter = "1.0.0"
 browser = "1.3.0"
@@ -50,7 +50,6 @@ targetSdk = "31"
 [libraries]
 androidMapsUtils = {group = "com.google.maps.android", name = "android-maps-utils", version.ref = "androidMapsUtils" }
 appcompat = {group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-bankLinter = {group = "com.bcp.bank.linter", name = "plugin", version.ref = "bankLinter" }
 browser = {group = "androidx.browser", name = "browser", version.ref = "browser" }
 ciam = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "ciam" }
 constraintlayout = {group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
