@@ -7,9 +7,6 @@ plugins {
 }
 
 /// order of the files matter: lower index overrides definitions on later entries
-val featureFiles = listOf(
-    "dependencies/MBBKST-Maps/mbbkst-maps.toml",
-)
 val defaultFiles = listOf(
     "dependencies/settings/mbbk.plugins.settings.toml",
     "dependencies/settings/mbbk.bundles.settings.toml",
@@ -18,15 +15,12 @@ val defaultFiles = listOf(
 
     "dependencies/core/mbbk.versions.core.toml",
     "dependencies/core/mbbk.libraries.core.toml",
-
-    "dependencies/lts/mbbk.versions.lts.toml",
-    "dependencies/lts/mbbk.libraries.lts.toml",
 )
 
 catalog {
     versionCatalog {
         from(files(
-            listOf(featureFiles, defaultFiles).flatten()
+            listOf(defaultFiles).flatten()
         ))
     }
 }
