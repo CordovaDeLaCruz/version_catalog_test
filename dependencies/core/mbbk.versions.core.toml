@@ -1,10 +1,24 @@
 [versions]
 
 bankLinter = "1.0.0"
+
 ciam = "1.3.15"
+mbbkCiamCert = "1.3.15-EH"
+mbbkCiamEthical = "1.3.15.1001-SNAPSHOT" # "1.3.15-EH-SNAPSHOT"
+mbbkCiamSnapshot = "1.3.15-SNAPSHOT"
+
 coreAuth = "1.2.5"
-coreNetworking = "2.3.0"
-coreResources = "1.4.5"
+coreAuthSnapshot = "1.2.5-SNAPSHOT"
+coreAuthCert = "1.2.5-EH"
+coreAuthEthical = "1.2.5-EH-SNAPSHOT"
+
+coreNetworking = "2.3.5"
+coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
+coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
+
+coreResources = "2.0.0"
 coreStorage = "1.1.0"
 coreUtil = "1.0.0"
-mbbkUiComponent = "1.3.17"
+coreMbbkUiComponent = "1.3.18"
+cpClientLibrayBcpProduction = "2.5.5"
+mobilepaymentVisasensorbranding = "1.0.0"

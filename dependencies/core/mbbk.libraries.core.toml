@@ -1,9 +1,22 @@
 [libraries]
 
-ciam = { module = "com.bcp.core.mbbk:ciam", version.ref = "ciam" }
-coreAuth = { module = "com.bcp.core:auth", version.ref = "coreAuth" }
-coreNetworking = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
-coreResources = { module = "com.bcp.core:resources", version.ref = "coreResources" }
+mbbk-ciam = { module = "com.bcp.core.mbbk:ciam", version.ref = "ciam" }
+mbbk-ciam-snapshot = { module = "com.bcp.core.mbbk:ciam", version.ref = "mbbkCiamSnapshot" }
+mbbk-ciam-cert = { module = "com.bcp.core.mbbk:ciam", version.ref = "mbbkCiamCert" }
+mbbk-ciam-ethical = { module = "com.bcp.core.mbbk:ciam", version.ref = "mbbkCiamEthical" }
+
+core-auth = { module = "com.bcp.core:auth", version.ref = "coreAuth" }
+core-auth-snapshot = { module = "com.bcp.core:auth", version.ref = "coreAuthSnapshot" }
+core-auth-cert = { module = "com.bcp.core:auth", version.ref = "coreAuthCert" }
+core-auth-ethical = { module = "com.bcp.core:auth", version.ref = "coreAuthEthical" }
+
+core-networking = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
+core-networking-snapshot = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
+core-networking-ethical = { module = "com.bcp.core:networking", version.ref = "coreNetworkingEthical" }
+
+core-resources = { module = "com.bcp.core:resources", version.ref = "coreResources" }
 coreStorage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
 coreUtil = { module = "com.bcp.core:util", version.ref = "coreUtil" }
-mbbkUiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "mbbkUiComponent" }
+coreMbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponent" }
+mbbk-cpClientLibrayBcpProduction = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibrayBcpProduction" }
+mbbk-mobilepaymentVisasensorbranding = { module = "com.bcp.mbbk.library:mobilepayment.visasensorbranding", version.ref = "mobilepaymentVisasensorbranding" }
