@@ -29,22 +29,29 @@ coreAuthCert = "1.2.5-EH"
 coreAuthEthical = "1.2.5-EH-SNAPSHOT"
 coreAuthSnapshot = "1.2.5-EH-SNAPSHOT"
 coreKtx = "1.3.2"
-coreMbbkUiComponent = "1.3.18"
+coreMbbkUiComponent = "1.3.18.1-SNAPSHOT"
 coreNetworking = "2.3.5"
 coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
 coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
+corePushnotification = "1.0.2"
 coreResources = "2.0.0"
+coreSplashscreen = "1.0.0"
 coreStorage = "1.1.0"
 coreUtil = "1.0.0"
-cpClientLibrayBcpProduction = "2.5.5"
+cpClientLibraryBcp = "3.0.9"
 dcendentsAndroidMavenGradlePlugin = "1.5"
 detektGradlePlugin = "1.15.0"
 dynatraceAgentAndroid = "8.247.1.1003"
 dynatraceGradlePlugin = "8.247.1.1003"
 facebookShimmer = "0.5.0"
+facephi = "6.0"
+facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
+facialAuthAndroidMbbk = "1.9.7"
+facialAuthAndroidMbbkSnapshot = "1.9.7-SNAPSHOT"
 firebaseFirestoreKtx = "24.2.2"
 firebaseMessagingKtx = "20.3.0"
 gmsGoogleServices = "4.3.14"
+gmsPlayServicesMlkitTextRecognition = "18.0.0"
 googlePlayCore = "1.8.2"
 googlePlayCoreKtx = "1.8.1"
 gradleMavenPluginPublish = "0.18.0"
@@ -52,9 +59,10 @@ gradlePluginPublish = "0.9.9"
 gson = "2.8.2"
 guardsquareDexguard = "9.2.9"
 guardsquareDexguardGradlePlugin = "1.2.9"
-hmsLocation = "5.0.0.301"
+hmsLocation = "6.7.0.300"
 hmsMaps = "5.0.3.302"
 huaweiAgcp = "1.5.2.300"
+jacksonCoreJacksonDatabind = "2.10.1"
 jetbrainsKotlinxCoroutines = "1.3.4"
 jetbrainsKotlinxMetadataJvm = "0.1.0"
 jetbrainsTestKotlinxCoroutineTest = "1.6.1"
@@ -64,11 +72,13 @@ kotlin = "1.6.21"
 lifecycleCommonJava8 = "2.4.1"
 lifecycleExtensions = "2.1.0"
 lifecycleViewmodelKtx = "2.2.0"
+masivPushAndroidSDK = "1.1.3"
 material = "1.4.0"
 mbbk-plugin = "1.0.1.lts"
 mbbkCiamCert = "1.3.15-EH"
 mbbkCiamEthical = "1.3.15-EH-SNAPSHOT"
 mbbkCiamSnapshot = "1.3.15.1001-SNAPSHOT"
+medalliaAndroidSdk = "4.0.2"
 minSdk = "21"
 mobilepaymentVisasensorbranding = "1.0.0"
 navigationDynamicFeaturesFragment = "2.5.1"
@@ -92,7 +102,7 @@ targetSdk = "31"
 testJUnit = "4.13.2"
 testMockitoCore = "3.3.3"
 testMockitoInline = "3.3.3"
-workRuntime = "2.2.0"
+workRuntime = "2.7.0"
 
 [libraries]
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
@@ -105,6 +115,7 @@ androidTest-expressoCore = {group = "androidx.test.espresso", name = "espresso-c
 androidTest-runner = {group = "androidx.test", name = "runner", version.ref = "androidTestRunner" }
 androidx-arch-coreTesting = {group = "androidx.arch.core", name = "core-testing", version.ref = "androidArchCoreTesting" }
 androidx-browser = {group = "androidx.browser", name = "browser", version.ref = "browser" }
+androidx-coreSplashscreen = {group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-lifecycleCommonJava8 = {group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycleCommonJava8" }
 androidx-lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
 androidx-lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
@@ -122,6 +133,7 @@ core-auth-snapshot = {group = "com.bcp.core", name = "auth", version.ref = "core
 core-networking = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }
 core-networking-ethical = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingEthical" }
 core-networking-snapshot = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }
+core-pushnotification = {group = "com.bcp.core", name = "pushnotification", version.ref = "corePushnotification" }
 core-resources = {group = "com.bcp.core", name = "resources", version.ref = "coreResources" }
 coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 coreMbbk-uiComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponent" }
@@ -130,6 +142,14 @@ coreUtil = {group = "com.bcp.core", name = "util", version.ref = "coreUtil" }
 dynatrace-agentAndroid = {group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatraceAgentAndroid" }
 dynatrace-gradlePlugin = {group = "com.dynatrace.tools.android", name = "gradle-plugin", version.ref = "dynatraceGradlePlugin" }
 facebook-shimmer = {group = "com.facebook.shimmer", name = "shimmer", version.ref = "facebookShimmer" }
+facephi-fphiCoreWidgetAndroid = {group = "com.facephi.android", name = "fphi-core-widget-android", version.ref = "facephi" }
+facephi-fphiSelphiWidgetAndroid = {group = "com.facephi.android", name = "fphi-selphi-widget-android", version.ref = "facephi" }
+facephi-fphiSelphidCoreAndroid = {group = "com.facephi.android", name = "fphi-selphid-core-android", version.ref = "facephi" }
+facephi-fphiSelphidDrawerAndroid = {group = "com.facephi.android", name = "fphi-selphid-drawer-android", version.ref = "facephi" }
+facephi-fphiSelphidExtractor = {group = "com.facephi.android", name = "fphi-selphid-extractor", version.ref = "facephi" }
+facialAuth-androidBcpEh-ethical = {group = "com.bcp.ciam.facialauth", name = "android-bcp-EH", version.ref = "facialAuthAndroidBcpEhEthical" }
+facialAuth-androidMbbk = {group = "com.bcp.ciam.facialauth", name = "android-MBBK", version.ref = "facialAuthAndroidMbbk" }
+facialAuth-androidMbbk-snapshot = {group = "com.bcp.ciam.facialauth", name = "android-MBBK", version.ref = "facialAuthAndroidMbbkSnapshot" }
 firebase-firestoreKtx = {group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
 firebase-messagingKtx = {group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
 github-dcendents-androidMavenGradlePlugin = {group = "com.github.dcendents", name = "android-maven-gradle-plugin", version.ref = "dcendentsAndroidMavenGradlePlugin" }
@@ -138,6 +158,7 @@ gms-googleServices = {group = "com.google.gms", name = "google-services", versio
 gms-playServicesAuth = {group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
 gms-playServicesAuthApiPhone = {group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
 gms-playServicesLocation = {group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+gms-playServicesMlkitTextRecognition = {group = "com.google.android.gms", name = "play-services-mlkit-text-recognition", version.ref = "gmsPlayServicesMlkitTextRecognition" }
 gms-playServicesPlaces = {group = "com.google.android.gms", name = "play-services-places", version.ref = "playServicesPlaces" }
 google-androidMapsUtils = {group = "com.google.maps.android", name = "android-maps-utils", version.ref = "androidMapsUtils" }
 google-gson = {group = "com.google.code.gson", name = "gson", version.ref = "gson" }
@@ -152,18 +173,22 @@ guardsquare-dexguardRuntime = {group = "com.guardsquare", name = "dexguard-runti
 hms-location = {group = "com.huawei.hms", name = "location", version.ref = "hmsLocation" }
 hms-maps = {group = "com.huawei.hms", name = "maps", version.ref = "hmsMaps" }
 huawei-agcp = {group = "com.huawei.agconnect", name = "agcp", version.ref = "huaweiAgcp" }
+jacksonCore-jacksonDatabind = {group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
 jetbrains-kotlinGradlePlugin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 jetbrains-kotlinxCoroutinesAndroid = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "jetbrainsKotlinxCoroutines" }
 jetbrains-kotlinxCoroutinesCore = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "jetbrainsKotlinxCoroutines" }
 jetbrains-kotlinxMetadataJvm = {group = "org.jetbrains.kotlinx", name = "kotlinx-metadata-jvm", version.ref = "jetbrainsKotlinxMetadataJvm" }
 jetbrains-test-kotlinxCoroutineTest = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "jetbrainsTestKotlinxCoroutineTest" }
 jfrog-buildInfoExtractorGradle = {group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jfrogBuildInfoExtractorGradle" }
+masiv-pushAndroidSDK = {group = "com.masiv.pushandroidsdk", name = "PushAndroidSDK", version.ref = "masivPushAndroidSDK" }
 mbbk-ciam = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "ciam" }
 mbbk-ciam-cert = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamCert" }
 mbbk-ciam-ethical = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamEthical" }
 mbbk-ciam-snapshot = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamSnapshot" }
-mbbk-cpClientLibrayBcpProduction = {group = "com.bcp.mbbk.library", name = "cp-client-library-bcp-production", version.ref = "cpClientLibrayBcpProduction" }
+mbbk-cpClientLibrayBcp = {group = "com.bcp.mbbk.library", name = "cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
+mbbk-cpClientLibrayBcp-snapshot = {group = "com.bcp.mbbk.library", name = "cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
 mbbk-mobilepaymentVisasensorbranding = {group = "com.bcp.mbbk.library", name = "mobilepayment.visasensorbranding", version.ref = "mobilepaymentVisasensorbranding" }
+medallia-androidSdk = {group = "com.medallia.digital.mobilesdk", name = "android-sdk", version.ref = "medalliaAndroidSdk" }
 navigation-dynamicFeaturesFragment = {group = "androidx.navigation", name = "navigation-dynamic-features-fragment", version.ref = "navigationDynamicFeaturesFragment" }
 navigation-fragmentKtx = {group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 navigation-safeArgsGradlePlugin = {group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }

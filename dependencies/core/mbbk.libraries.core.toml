@@ -18,5 +18,23 @@ core-resources = { module = "com.bcp.core:resources", version.ref = "coreResourc
 coreStorage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
 coreUtil = { module = "com.bcp.core:util", version.ref = "coreUtil" }
 coreMbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponent" }
-mbbk-cpClientLibrayBcpProduction = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibrayBcpProduction" }
+core-pushnotification = { module = "com.bcp.core:pushnotification", version.ref = "corePushnotification" }
+
+mbbk-cpClientLibrayBcp-snapshot = { module = "com.bcp.mbbk.library:cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
+mbbk-cpClientLibrayBcp = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
+
 mbbk-mobilepaymentVisasensorbranding = { module = "com.bcp.mbbk.library:mobilepayment.visasensorbranding", version.ref = "mobilepaymentVisasensorbranding" }
+
+facephi-fphiCoreWidgetAndroid = { module = "com.facephi.android:fphi-core-widget-android", version.ref = "facephi" }
+facephi-fphiSelphiWidgetAndroid = { module = "com.facephi.android:fphi-selphi-widget-android", version.ref = "facephi" }
+facephi-fphiSelphidCoreAndroid = { module = "com.facephi.android:fphi-selphid-core-android", version.ref = "facephi" }
+facephi-fphiSelphidDrawerAndroid = { module = "com.facephi.android:fphi-selphid-drawer-android", version.ref = "facephi" }
+facephi-fphiSelphidExtractor = { module = "com.facephi.android:fphi-selphid-extractor", version.ref = "facephi" }
+
+facialAuth-androidMbbk-snapshot = { module = "com.bcp.ciam.facialauth:android-MBBK", version.ref = "facialAuthAndroidMbbkSnapshot" }
+facialAuth-androidMbbk =  { module = "com.bcp.ciam.facialauth:android-MBBK", version.ref = "facialAuthAndroidMbbk" }
+facialAuth-androidBcpEh-ethical =  { module = "com.bcp.ciam.facialauth:android-bcp-EH", version.ref = "facialAuthAndroidBcpEhEthical" }
+
+masiv-pushAndroidSDK = { module = "com.masiv.pushandroidsdk:PushAndroidSDK", version.ref = "masivPushAndroidSDK" }
+
+medallia-androidSdk = { module = "com.medallia.digital.mobilesdk:android-sdk", version.ref = "medalliaAndroidSdk" }

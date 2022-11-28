@@ -19,6 +19,17 @@ coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
 coreResources = "2.0.0"
 coreStorage = "1.1.0"
 coreUtil = "1.0.0"
-coreMbbkUiComponent = "1.3.18"
-cpClientLibrayBcpProduction = "2.5.5"
+coreMbbkUiComponent = "1.3.18.1-SNAPSHOT" # "1.3.19"
+corePushnotification = "1.0.2"
+
+cpClientLibraryBcp = "3.0.9"
 mobilepaymentVisasensorbranding = "1.0.0"
+
+facialAuthAndroidMbbkSnapshot = "1.9.7-SNAPSHOT"
+facialAuthAndroidMbbk = "1.9.7"
+facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
+
+masivPushAndroidSDK = "1.1.3"
+
+medalliaAndroidSdk = "4.0.2"
+jacksonCoreJacksonDatabind = "2.10.1"

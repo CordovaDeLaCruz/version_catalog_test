@@ -6,6 +6,7 @@ androidx-browser = { module = "androidx.browser:browser", version.ref = "browser
 constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
 biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
 androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "androidxViewpager2" }
+androidx-coreSplashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 
 androidx-lifecycleExtensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions"}
 androidx-lifecycleViewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
@@ -27,6 +28,7 @@ google-material = { module = "com.google.android.material:material", version.ref
 google-playCoreKtx = { module = "com.google.android.play:core-ktx", version.ref = "googlePlayCoreKtx" }
 google-androidMapsUtils = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtils" }
 gms-googleServices = { module = "com.google.gms:google-services", version.ref = "gmsGoogleServices" }
+gms-playServicesMlkitTextRecognition = { module = "com.google.android.gms:play-services-mlkit-text-recognition", version.ref = "gmsPlayServicesMlkitTextRecognition" }
 
 gms-playServicesAuth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 gms-playServicesAuthApiPhone = { module = "com.google.android.gms:play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
@@ -90,3 +92,5 @@ gitlab-arturbosch-detektGradlePlugin = { module = "io.gitlab.arturbosch.detekt:d
 huawei-agcp = { module = "com.huawei.agconnect:agcp", version.ref = "huaweiAgcp" }
 
 sonarsource-sonarqubeGradlePlugin = { module = "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin", version.ref = "sonarqubeGradlePlugin" }
+
+jacksonCore-jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
