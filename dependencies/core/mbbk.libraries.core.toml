@@ -11,7 +11,7 @@ core-auth-cert = { module = "com.bcp.core:auth", version.ref = "coreAuthCert" }
 core-auth-ethical = { module = "com.bcp.core:auth", version.ref = "coreAuthEthical" }
 
 core-networking = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
-core-networking-snapshot = { module = "com.bcp.core:networking", version.ref = "coreNetworking" }
+core-networking-snapshot = { module = "com.bcp.core:networking", version.ref = "coreNetworkingSnapshot" }
 core-networking-ethical = { module = "com.bcp.core:networking", version.ref = "coreNetworkingEthical" }
 
 core-resources = { module = "com.bcp.core:resources", version.ref = "coreResources" }

@@ -1,2 +1,5 @@
 [plugins]
 mbbk = { id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
