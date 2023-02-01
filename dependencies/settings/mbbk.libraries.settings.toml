@@ -58,6 +58,7 @@ jetbrains-kotlinxMetadataJvm = { module = "org.jetbrains.kotlinx:kotlinx-metadat
 
 airbnb-lottie = { module = "com.airbnb.android:lottie", version.ref = "airbnbLottie" }
 workRuntime = { module = "androidx.work:work-runtime", version.ref = "workRuntime" }
+workRuntimeKtx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntime" }
 
 test-jUnit = { module = "junit:junit", version.ref = "testJUnit" }
 test-mockitoCore = { module = "org.mockito:mockito-core", version.ref = "testMockitoCore" }
