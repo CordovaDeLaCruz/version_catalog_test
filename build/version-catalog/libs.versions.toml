@@ -19,36 +19,38 @@ androidxViewpager2 = "1.0.0"
 annotation = "1.5.0"
 appcompat = "1.3.0"
 artifactory-plugin = "4.1.1"
+assertjCore = "3.21.0"
 bankLinter = "1.0.0"
 biometric = "1.0.1"
 browser = "1.3.0"
-ciam = "1.3.15"
+ciam = "1.3.20"
 compileSdk = "31"
 constraintlayout = "2.1.4"
-coreAuth = "1.2.5"
-coreAuthCert = "1.2.5-EH"
-coreAuthEthical = "1.2.5-EH-SNAPSHOT"
-coreAuthSnapshot = "1.2.5-EH-SNAPSHOT"
+coreAuth = "1.2.6"
+coreAuthCert = "1.2.6-EH"
+coreAuthEthical = "1.2.6-EH-SNAPSHOT"
+coreAuthSnapshot = "1.2.6.1-SNAPSHOT"
 coreKtx = "1.3.2"
-coreMbbkUiComponent = "1.3.20.1-SNAPSHOT"
-coreNetworking = "2.3.5"
+coreMbbkUiComponent = "1.3.23.1-SNAPSHOT"
+coreNetworking = "2.4.0"
 coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
-coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
+coreNetworkingSnapshot = "2.4.0-SNAPSHOT"
 corePushnotification = "1.0.2"
 coreResources = "2.4.0"
 coreSplashscreen = "1.0.0"
 coreStorage = "1.3.0"
+coreUiComponent = "2.3.0"
 coreUtil = "1.0.0"
 cpClientLibraryBcp = "3.0.9"
 dcendentsAndroidMavenGradlePlugin = "1.5"
 detektGradlePlugin = "1.15.0"
-dynatraceAgentAndroid = "8.247.1.1003"
-dynatraceGradlePlugin = "8.247.1.1003"
+dynatraceAgentAndroid = "8.263.1.1002"
+dynatraceGradlePlugin = "8.263.1.1002"
 facebookShimmer = "0.5.0"
-facephi = "6.0"
+facephi = "8.0"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
-facialAuthAndroidMbbk = "1.9.7"
-facialAuthAndroidMbbkSnapshot = "1.9.7-SNAPSHOT"
+facialAuthAndroidMbbk = "3.3.12"
+facialAuthAndroidMbbkSnapshot = "3.3.12-SNAPSHOT"
 firebaseFirestoreKtx = "24.2.2"
 firebaseMessagingKtx = "20.3.0"
 gmsGoogleServices = "4.3.14"
@@ -60,11 +62,13 @@ gradlePluginPublish = "0.9.9"
 gson = "2.8.2"
 guardsquareDexguard = "9.2.9"
 guardsquareDexguardGradlePlugin = "1.2.9"
+hamcrest = "2.2"
 hmsLocation = "6.7.0.300"
 hmsMaps = "5.0.3.302"
 huaweiAgcp = "1.5.2.300"
+ioMockk = "1.12.2"
 jacksonCoreJacksonDatabind = "2.10.1"
-jetbrainsKotlinxCoroutines = "1.3.4"
+jetbrainsKotlinxCoroutines = "1.6.1"
 jetbrainsKotlinxMetadataJvm = "0.1.0"
 jetbrainsTestKotlinxCoroutineTest = "1.6.1"
 jfrogBuildInfoExtractorGradle = "4.15.1"
@@ -72,16 +76,18 @@ jvmTarget = "1.8"
 kotlin = "1.6.21"
 lifecycleCommonJava8 = "2.4.1"
 lifecycleExtensions = "2.1.0"
+lifecycleRuntimeKtx = "2.5.1"
 lifecycleViewmodelKtx = "2.2.0"
 masivPushAndroidSDK = "1.1.3"
 material = "1.4.0"
 mbbk-plugin = "1.0.1.lts"
-mbbkCiamCert = "1.3.15-EH"
-mbbkCiamEthical = "1.3.15-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.3.17.1-SNAPSHOT"
+mbbkCiamCert = "1.3.20-EH"
+mbbkCiamEthical = "1.3.20-EH-SNAPSHOT"
+mbbkCiamSnapshot = "1.3.20.1-SNAPSHOT"
 medalliaAndroidSdk = "4.0.2"
 minSdk = "24"
 mobilepaymentVisasensorbranding = "1.0.0"
+mockwebserver = "4.9.3"
 navigationDynamicFeaturesFragment = "2.5.1"
 navigationFragmentKtx = "2.5.1"
 navigationSafeArgsGradlePlugin = "2.5.1"
@@ -101,9 +107,12 @@ suportMultidex = "1.0.3"
 supportCardViewV7 = "29.0.0"
 targetSdk = "31"
 testJUnit = "4.13.2"
-testMockitoCore = "3.3.3"
+testMockitoCore = "4.3.1"
 testMockitoInline = "3.3.3"
+turbine = "0.9.0"
 workRuntime = "2.7.0"
+wrdaAndroidSdk = "1.0.4"
+wrdaAndroidSdkSnapshot = "1.0.2.10-SNAPSHOT"
 
 [libraries]
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
@@ -120,6 +129,7 @@ androidx-browser = {group = "androidx.browser", name = "browser", version.ref = 
 androidx-coreSplashscreen = {group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-lifecycleCommonJava8 = {group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycleCommonJava8" }
 androidx-lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-lifecycleRuntimeKtx = {group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-roomCompiler = {group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
 androidx-roomKtx = {group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
@@ -132,15 +142,16 @@ core-auth = {group = "com.bcp.core", name = "auth", version.ref = "coreAuth" }
 core-auth-cert = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthCert" }
 core-auth-ethical = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthEthical" }
 core-auth-snapshot = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthSnapshot" }
+core-mbbk-uiComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponent" }
 core-networking = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }
 core-networking-ethical = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingEthical" }
 core-networking-snapshot = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingSnapshot" }
 core-pushnotification = {group = "com.bcp.core", name = "pushnotification", version.ref = "corePushnotification" }
 core-resources = {group = "com.bcp.core", name = "resources", version.ref = "coreResources" }
+core-storage = {group = "com.bcp.core", name = "storage", version.ref = "coreStorage" }
+core-uiComponent = {group = "com.bcp.core", name = "ui-component", version.ref = "coreUiComponent" }
+core-util = {group = "com.bcp.core", name = "util", version.ref = "coreUtil" }
 coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-coreMbbk-uiComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponent" }
-coreStorage = {group = "com.bcp.core", name = "storage", version.ref = "coreStorage" }
-coreUtil = {group = "com.bcp.core", name = "util", version.ref = "coreUtil" }
 dynatrace-agentAndroid = {group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatraceAgentAndroid" }
 dynatrace-gradlePlugin = {group = "com.dynatrace.tools.android", name = "gradle-plugin", version.ref = "dynatraceGradlePlugin" }
 facebook-shimmer = {group = "com.facebook.shimmer", name = "shimmer", version.ref = "facebookShimmer" }
@@ -175,6 +186,7 @@ guardsquare-dexguardRuntime = {group = "com.guardsquare", name = "dexguard-runti
 hms-location = {group = "com.huawei.hms", name = "location", version.ref = "hmsLocation" }
 hms-maps = {group = "com.huawei.hms", name = "maps", version.ref = "hmsMaps" }
 huawei-agcp = {group = "com.huawei.agconnect", name = "agcp", version.ref = "huaweiAgcp" }
+io-mockk = {group = "io.mockk", name = "mockk", version.ref = "ioMockk" }
 jacksonCore-jacksonDatabind = {group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
 jetbrains-kotlinGradlePlugin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 jetbrains-kotlinxCoroutinesAndroid = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "jetbrainsKotlinxCoroutines" }
@@ -200,11 +212,17 @@ rsa-cryptojce = {group = "com.rsa", name = "cryptojce", version.ref = "rsa" }
 rsa-cryptojcommon = {group = "com.rsa", name = "cryptojcommon", version.ref = "rsa" }
 rsa-securIDLib = {group = "com.rsa", name = "SecurIDLib", version.ref = "rsaSecurIDLib" }
 sonarsource-sonarqubeGradlePlugin = {group = "org.sonarsource.scanner.gradle", name = "sonarqube-gradle-plugin", version.ref = "sonarqubeGradlePlugin" }
+squareup-okhttp3-mockwebserver = {group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserver" }
 support-cardviewV7 = {group = "com.android.support", name = "cardview-v7", version.ref = "supportCardViewV7" }
 support-multidex = {group = "com.android.support", name = "multidex", version.ref = "suportMultidex" }
+test-app-cash-turbine = {group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+test-assertj-assertjCore = {group = "org.assertj", name = "assertj-core", version.ref = "assertjCore" }
+test-hamcrest = {group = "org.hamcrest", name = "hamcrest", version.ref = "hamcrest" }
 test-jUnit = {group = "junit", name = "junit", version.ref = "testJUnit" }
 test-mockitoCore = {group = "org.mockito", name = "mockito-core", version.ref = "testMockitoCore" }
 test-mockitoInline = {group = "org.mockito", name = "mockito-inline", version.ref = "testMockitoInline" }
+warda-wrdaAndroidSdk = {group = "com.bcp.warda", name = "wrda-android-sdk", version.ref = "wrdaAndroidSdk" }
+warda-wrdaAndroidSdk-snapshot = {group = "com.bcp.warda", name = "wrda-android-sdk", version.ref = "wrdaAndroidSdkSnapshot" }
 workRuntime = {group = "androidx.work", name = "work-runtime", version.ref = "workRuntime" }
 workRuntimeKtx = {group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntime" }
 

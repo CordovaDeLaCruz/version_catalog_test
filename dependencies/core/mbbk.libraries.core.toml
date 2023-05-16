@@ -15,10 +15,11 @@ core-networking-snapshot = { module = "com.bcp.core:networking", version.ref = "
 core-networking-ethical = { module = "com.bcp.core:networking", version.ref = "coreNetworkingEthical" }
 
 core-resources = { module = "com.bcp.core:resources", version.ref = "coreResources" }
-coreStorage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
-coreUtil = { module = "com.bcp.core:util", version.ref = "coreUtil" }
-coreMbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponent" }
+core-storage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
+core-util = { module = "com.bcp.core:util", version.ref = "coreUtil" }
+core-mbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponent" }
 core-pushnotification = { module = "com.bcp.core:pushnotification", version.ref = "corePushnotification" }
+core-uiComponent = { module = "com.bcp.core:ui-component", version.ref = "coreUiComponent" }
 
 mbbk-cpClientLibrayBcp-snapshot = { module = "com.bcp.mbbk.library:cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
 mbbk-cpClientLibrayBcp = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
@@ -38,3 +39,6 @@ facialAuth-androidBcpEh-ethical =  { module = "com.bcp.ciam.facialauth:android-b
 masiv-pushAndroidSDK = { module = "com.masiv.pushandroidsdk:PushAndroidSDK", version.ref = "masivPushAndroidSDK" }
 
 medallia-androidSdk = { module = "com.medallia.digital.mobilesdk:android-sdk", version.ref = "medalliaAndroidSdk" }
+
+warda-wrdaAndroidSdk = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdk" }
+warda-wrdaAndroidSdk-snapshot = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdkSnapshot" }

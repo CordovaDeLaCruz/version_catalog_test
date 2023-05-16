@@ -2,34 +2,37 @@
 
 bankLinter = "1.0.0"
 
-ciam = "1.3.15"
-mbbkCiamCert = "1.3.15-EH"
-mbbkCiamEthical = "1.3.15-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.3.17.1-SNAPSHOT" # "1.3.15-SNAPSHOT"
+ciam = "1.3.20"
+mbbkCiamCert = "1.3.20-EH"
+mbbkCiamEthical = "1.3.20-EH-SNAPSHOT"
+mbbkCiamSnapshot = "1.3.20.1-SNAPSHOT" # "1.3.18-SNAPSHOT"
 
-coreAuth = "1.2.5"
-coreAuthSnapshot = "1.2.5-EH-SNAPSHOT" #"1.2.5-SNAPSHOT"
-coreAuthCert = "1.2.5-EH"
-coreAuthEthical = "1.2.5-EH-SNAPSHOT"
+coreAuth = "1.2.6"
+coreAuthSnapshot = "1.2.6.1-SNAPSHOT" #"1.2.6-SNAPSHOT"
+coreAuthCert = "1.2.6-EH"
+coreAuthEthical = "1.2.6-EH-SNAPSHOT"
 
-coreNetworking = "2.3.5"
-coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
+coreNetworking = "2.4.0"
+coreNetworkingSnapshot = "2.4.0-SNAPSHOT"
 coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
 
 coreResources = "2.4.0"
 coreStorage = "1.3.0"
 coreUtil = "1.0.0"
-coreMbbkUiComponent = "1.3.20.1-SNAPSHOT" # "1.3.19"
+coreMbbkUiComponent = "1.3.23.1-SNAPSHOT" # "1.3.23"
 corePushnotification = "1.0.2"
+coreUiComponent = "2.3.0"
 
 cpClientLibraryBcp = "3.0.9"
 mobilepaymentVisasensorbranding = "1.0.0"
 
-facialAuthAndroidMbbkSnapshot = "1.9.7-SNAPSHOT"
-facialAuthAndroidMbbk = "1.9.7"
+facialAuthAndroidMbbkSnapshot = "3.3.12-SNAPSHOT"
+facialAuthAndroidMbbk = "3.3.12"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
 
 masivPushAndroidSDK = "1.1.3"
 
 medalliaAndroidSdk = "4.0.2"
-jacksonCoreJacksonDatabind = "2.10.1"
+
+wrdaAndroidSdk = "1.0.4"
+wrdaAndroidSdkSnapshot = "1.0.2.10-SNAPSHOT"#"1.0.4-SNAPSHOT"
