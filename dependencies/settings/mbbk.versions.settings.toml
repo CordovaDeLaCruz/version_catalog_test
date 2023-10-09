@@ -64,7 +64,7 @@ minSdk = "24"
 roomCompiler = "2.2.5"
 roomKtx = "2.2.5"
 roomRuntime = "2.2.5"
-targetSdk = "31"
+targetSdk = "33"
 workRuntime = "2.7.0"
 
 testJUnit = "4.13.2"
