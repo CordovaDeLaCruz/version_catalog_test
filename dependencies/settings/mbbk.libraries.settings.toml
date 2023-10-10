@@ -102,3 +102,5 @@ huawei-agcp = { module = "com.huawei.agconnect:agcp", version.ref = "huaweiAgcp"
 sonarsource-sonarqubeGradlePlugin = { module = "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin", version.ref = "sonarqubeGradlePlugin" }
 
 jacksonCore-jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
+
+io-coilKt-coilSvg = { module = "io.coil-kt:coil-svg", version.ref = "coilSvg" }

@@ -21,6 +21,9 @@ core-mbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref
 core-pushnotification = { module = "com.bcp.core:pushnotification", version.ref = "corePushnotification" }
 core-uiComponent = { module = "com.bcp.core:ui-component", version.ref = "coreUiComponent" }
 
+ui-mbbk-keyboard-snapshot = { module = "com.bcp.ui.mbbk:keyboard", version.ref = "uiMbbkKeyboardSnapshot" }
+ui-mbbk-keyboard = { module = "com.bcp.ui.mbbk:keyboard", version.ref = "uiMbbkKeyboard" }
+
 mbbk-cpClientLibrayBcp-snapshot = { module = "com.bcp.mbbk.library:cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
 mbbk-cpClientLibrayBcp = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
 
