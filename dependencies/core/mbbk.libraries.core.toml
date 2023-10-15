@@ -24,8 +24,8 @@ core-uiComponent = { module = "com.bcp.core:ui-component", version.ref = "coreUi
 ui-mbbk-keyboard-snapshot = { module = "com.bcp.ui.mbbk:keyboard", version.ref = "uiMbbkKeyboardSnapshot" }
 ui-mbbk-keyboard = { module = "com.bcp.ui.mbbk:keyboard", version.ref = "uiMbbkKeyboard" }
 
-mbbk-cpClientLibrayBcp-snapshot = { module = "com.bcp.mbbk.library:cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
-mbbk-cpClientLibrayBcp = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
+mbbk-cpClientLibraryBcp-snapshot = { module = "com.bcp.mbbk.library:cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
+mbbk-cpClientLibraryBcp = { module = "com.bcp.mbbk.library:cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
 
 mbbk-mobilepaymentVisasensorbranding = { module = "com.bcp.mbbk.library:mobilepayment.visasensorbranding", version.ref = "mobilepaymentVisasensorbranding" }
 
