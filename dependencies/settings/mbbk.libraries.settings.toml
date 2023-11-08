@@ -72,9 +72,10 @@ squareup-okhttp3-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver"
 test-app-cash-turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 test-hamcrest = { module = "org.hamcrest:hamcrest", version.ref = "hamcrest" }
 test-assertj-assertjCore = { module = "org.assertj:assertj-core", version.ref = "assertjCore" }
+androidx-test-jUnit = { module = "androidx.test.ext:junit", version.ref = "androidxTestjUnit" }
 
 androidTest-runner = { module = "androidx.test:runner", version.ref = "androidTestRunner" }
-androidTest-expressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "androidTestExpressoCore" }
+androidx-test-expresso-expressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "androidxTestExpressoCore" }
 
 guardsquare-dexguardGradlePlugin = { module = "com.guardsquare:dexguard-gradle-plugin", version.ref = "guardsquareDexguardGradlePlugin" }
 guardsquare-dexguardRasp = { module = "com.guardsquare:dexguard-rasp", version.ref = "guardsquareDexguard" }
