@@ -148,11 +148,11 @@ core-auth = {group = "com.bcp.core", name = "auth", version.ref = "coreAuth" }
 core-auth-cert = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthCert" }
 core-auth-ethical = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthEthical" }
 core-auth-snapshot = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthSnapshot" }
+core-ciam-otp = {group = "com.bcp.ciam.core.otp", name = "ciam-otp", version.ref = "coreOtp" }
 core-mbbk-uiComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponent" }
 core-networking = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }
 core-networking-ethical = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingEthical" }
 core-networking-snapshot = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingSnapshot" }
-core-otp = {group = "com.bcp.ciam.core.otp", name = "ciam-otp", version.ref = "coreOtp" }
 core-pushnotification = {group = "com.bcp.core", name = "pushnotification", version.ref = "corePushnotification" }
 core-resources = {group = "com.bcp.core", name = "resources", version.ref = "coreResources" }
 core-storage = {group = "com.bcp.core", name = "storage", version.ref = "coreStorage" }

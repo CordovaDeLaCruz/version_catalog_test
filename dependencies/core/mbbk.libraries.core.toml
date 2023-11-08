@@ -46,4 +46,4 @@ medallia-androidSdk = { module = "com.medallia.digital.mobilesdk:android-sdk", v
 warda-wrdaAndroidSdk = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdk" }
 warda-wrdaAndroidSdk-snapshot = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdkSnapshot" }
 
-core-otp = { module = "com.bcp.ciam.core.otp:ciam-otp", version.ref = "coreOtp" }
+core-ciam-otp = { module = "com.bcp.ciam.core.otp:ciam-otp", version.ref = "coreOtp" }
