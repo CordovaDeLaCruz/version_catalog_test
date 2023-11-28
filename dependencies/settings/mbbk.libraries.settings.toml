@@ -106,4 +106,4 @@ jacksonCore-jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-dat
 
 io-coilKt-coilSvg = { module = "io.coil-kt:coil-svg", version.ref = "coilSvg" }
 
-facebook_sdkCore={ module ="com.facebook.android:facebook-android-sdk" , version.ref="facebookSdk"}
+facebook-sdkCore={ module ="com.facebook.android:facebook-android-sdk" , version.ref="facebookSdkCore"}
