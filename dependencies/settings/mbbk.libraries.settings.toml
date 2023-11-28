@@ -105,3 +105,5 @@ sonarsource-sonarqubeGradlePlugin = { module = "org.sonarsource.scanner.gradle:s
 jacksonCore-jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
 
 io-coilKt-coilSvg = { module = "io.coil-kt:coil-svg", version.ref = "coilSvg" }
+
+facebook_sdkCore={ module ="com.facebook.android:facebook-android-sdk" , version.ref="facebookSdk"}

@@ -49,6 +49,7 @@ dcendentsAndroidMavenGradlePlugin = "1.5"
 detektGradlePlugin = "1.15.0"
 dynatraceAgentAndroid = "8.217.1.1003"
 dynatraceGradlePlugin = "8.263.1.1002"
+facebookSdk = "16.0.0"
 facebookShimmer = "0.5.0"
 facephi = "8.0"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
@@ -161,6 +162,7 @@ core-util = {group = "com.bcp.core", name = "util", version.ref = "coreUtil" }
 coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 dynatrace-agentAndroid = {group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatraceAgentAndroid" }
 dynatrace-gradlePlugin = {group = "com.dynatrace.tools.android", name = "gradle-plugin", version.ref = "dynatraceGradlePlugin" }
+facebook-sdkCore = {group = "com.facebook.android", name = "facebook-android-sdk", version.ref = "facebookSdk" }
 facebook-shimmer = {group = "com.facebook.shimmer", name = "shimmer", version.ref = "facebookShimmer" }
 facephi-fphiCoreWidgetAndroid = {group = "com.facephi.android", name = "fphi-core-widget-android", version.ref = "facephi" }
 facephi-fphiSelphiWidgetAndroid = {group = "com.facephi.android", name = "fphi-selphi-widget-android", version.ref = "facephi" }
