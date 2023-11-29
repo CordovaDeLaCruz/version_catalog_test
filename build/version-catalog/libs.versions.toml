@@ -119,11 +119,13 @@ workRuntime = "2.7.0"
 wrdaAndroidSdk = "1.0.4"
 wrdaAndroidSdkSnapshot = "1.0.2.10-SNAPSHOT"
 firebaseVersionBoom = "32.5.0"
+firebaseGradle = "2.9.9"
 
 [libraries]
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseVersionBoom" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
 firebase-common-ktx = { group = "com.google.firebase", name = "firebase-common-ktx" }
+firebase-crashlytics-gradle = { group = "com.google.firebase", name = "firebase-crashlytics-gradle",version.ref = "firebaseGradle" }
 
 adobe-analytics = { group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
 adobe-mobileservices = { group = "com.adobe.marketing.mobile", name = "mobileservices", version.ref = "adobeMobileservices" }
