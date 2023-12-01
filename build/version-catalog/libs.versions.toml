@@ -119,8 +119,130 @@ uiMbbkKeyboardSnapshot = "1.4.5-SNAPSHOT"
 workRuntime = "2.7.0"
 wrdaAndroidSdk = "1.0.4"
 wrdaAndroidSdkSnapshot = "1.0.2.10-SNAPSHOT"
+firebaseVersionBoom = "32.5.0"
+firebaseGradle = "2.9.9"
 
 [libraries]
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseVersionBoom" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
+firebase-common-ktx = { group = "com.google.firebase", name = "firebase-common-ktx" }
+firebase-crashlytics-gradle = { group = "com.google.firebase", name = "firebase-crashlytics-gradle",version.ref = "firebaseGradle" }
+
+adobe-analytics = { group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
+adobe-mobileservices = { group = "com.adobe.marketing.mobile", name = "mobileservices", version.ref = "adobeMobileservices" }
+adobe-sdkCore = { group = "com.adobe.marketing.mobile", name = "sdk-core", version.ref = "adobeSdkCore" }
+adobe-userprofile = { group = "com.adobe.marketing.mobile", name = "userprofile", version.ref = "adobeUserprofile" }
+airbnb-lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "airbnbLottie" }
+androidGradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+androidTest-runner = { group = "androidx.test", name = "runner", version.ref = "androidTestRunner" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-arch-coreTesting = { group = "androidx.arch.core", name = "core-testing", version.ref = "androidArchCoreTesting" }
+androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
+androidx-coreSplashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-lifecycleCommonJava8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycleCommonJava8" }
+androidx-lifecycleExtensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-lifecycleRuntimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycleViewmodelKtx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
+androidx-roomKtx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+androidx-roomRuntime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
+androidx-test-expresso-expressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestExpressoCore" }
+androidx-test-jUnit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestjUnit" }
+androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "androidxViewpager2" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+core-auth = { group = "com.bcp.core", name = "auth", version.ref = "coreAuth" }
+core-auth-cert = { group = "com.bcp.core", name = "auth", version.ref = "coreAuthCert" }
+core-auth-ethical = { group = "com.bcp.core", name = "auth", version.ref = "coreAuthEthical" }
+core-auth-snapshot = { group = "com.bcp.core", name = "auth", version.ref = "coreAuthSnapshot" }
+core-ciam-otp = { group = "com.bcp.ciam.core.otp", name = "ciam-otp", version.ref = "coreOtp" }
+core-mbbk-uiComponent = { group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponent" }
+core-networking = { group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }
+core-networking-ethical = { group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingEthical" }
+core-networking-snapshot = { group = "com.bcp.core", name = "networking", version.ref = "coreNetworkingSnapshot" }
+core-pushnotification = { group = "com.bcp.core", name = "pushnotification", version.ref = "corePushnotification" }
+core-resources = { group = "com.bcp.core", name = "resources", version.ref = "coreResources" }
+core-storage = { group = "com.bcp.core", name = "storage", version.ref = "coreStorage" }
+core-uiComponent = { group = "com.bcp.core", name = "ui-component", version.ref = "coreUiComponent" }
+core-util = { group = "com.bcp.core", name = "util", version.ref = "coreUtil" }
+coreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+dynatrace-agentAndroid = { group = "com.dynatrace.agent", name = "agent-android", version.ref = "dynatraceAgentAndroid" }
+dynatrace-gradlePlugin = { group = "com.dynatrace.tools.android", name = "gradle-plugin", version.ref = "dynatraceGradlePlugin" }
+facebook-shimmer = { group = "com.facebook.shimmer", name = "shimmer", version.ref = "facebookShimmer" }
+facephi-fphiCoreWidgetAndroid = { group = "com.facephi.android", name = "fphi-core-widget-android", version.ref = "facephi" }
+facephi-fphiSelphiWidgetAndroid = { group = "com.facephi.android", name = "fphi-selphi-widget-android", version.ref = "facephi" }
+facephi-fphiSelphidCoreAndroid = { group = "com.facephi.android", name = "fphi-selphid-core-android", version.ref = "facephi" }
+facephi-fphiSelphidDrawerAndroid = { group = "com.facephi.android", name = "fphi-selphid-drawer-android", version.ref = "facephi" }
+facephi-fphiSelphidExtractor = { group = "com.facephi.android", name = "fphi-selphid-extractor", version.ref = "facephi" }
+facialAuth-androidBcpEh-ethical = { group = "com.bcp.ciam.facialauth", name = "android-bcp-EH", version.ref = "facialAuthAndroidBcpEhEthical" }
+facialAuth-androidMbbk = { group = "com.bcp.ciam.facialauth", name = "android-MBBK", version.ref = "facialAuthAndroidMbbk" }
+facialAuth-androidMbbk-snapshot = { group = "com.bcp.ciam.facialauth", name = "android-MBBK", version.ref = "facialAuthAndroidMbbkSnapshot" }
+firebase-firestoreKtx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+firebase-messagingKtx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+github-dcendents-androidMavenGradlePlugin = { group = "com.github.dcendents", name = "android-maven-gradle-plugin", version.ref = "dcendentsAndroidMavenGradlePlugin" }
+gitlab-arturbosch-detektGradlePlugin = { group = "io.gitlab.arturbosch.detekt", name = "detekt-gradle-plugin", version.ref = "detektGradlePlugin" }
+gms-googleServices = { group = "com.google.gms", name = "google-services", version.ref = "gmsGoogleServices" }
+gms-playServicesAuth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+gms-playServicesAuthApiPhone = { group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
+gms-playServicesLocation = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+gms-playServicesMlkitTextRecognition = { group = "com.google.android.gms", name = "play-services-mlkit-text-recognition", version.ref = "gmsPlayServicesMlkitTextRecognition" }
+gms-playServicesPlaces = { group = "com.google.android.gms", name = "play-services-places", version.ref = "playServicesPlaces" }
+google-androidMapsUtils = { group = "com.google.maps.android", name = "android-maps-utils", version.ref = "androidMapsUtils" }
+google-gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+google-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+google-playCore = { group = "com.google.android.play", name = "core", version.ref = "googlePlayCore" }
+google-playCoreKtx = { group = "com.google.android.play", name = "core-ktx", version.ref = "googlePlayCoreKtx" }
+gradle-pluginPublish = { group = "com.gradle.publish", name = "plugin-publish-plugin", version.ref = "gradlePluginPublish" }
+gradleMavenPluginPublish = { group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "gradleMavenPluginPublish" }
+guardsquare-dexguardGradlePlugin = { group = "com.guardsquare", name = "dexguard-gradle-plugin", version.ref = "guardsquareDexguardGradlePlugin" }
+guardsquare-dexguardRasp = { group = "com.guardsquare", name = "dexguard-rasp", version.ref = "guardsquareDexguard" }
+guardsquare-dexguardRuntime = { group = "com.guardsquare", name = "dexguard-runtime", version.ref = "guardsquareDexguard" }
+hms-location = { group = "com.huawei.hms", name = "location", version.ref = "hmsLocation" }
+hms-maps = { group = "com.huawei.hms", name = "maps", version.ref = "hmsMaps" }
+huawei-agcp = { group = "com.huawei.agconnect", name = "agcp", version.ref = "huaweiAgcp" }
+io-coilKt-coilSvg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coilSvg" }
+io-mockk = { group = "io.mockk", name = "mockk", version.ref = "ioMockk" }
+jacksonCore-jacksonDatabind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
+jetbrains-kotlinGradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+jetbrains-kotlinxCoroutinesAndroid = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "jetbrainsKotlinxCoroutines" }
+jetbrains-kotlinxCoroutinesCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "jetbrainsKotlinxCoroutines" }
+jetbrains-kotlinxMetadataJvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-metadata-jvm", version.ref = "jetbrainsKotlinxMetadataJvm" }
+jetbrains-test-kotlinxCoroutineTest = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "jetbrainsTestKotlinxCoroutineTest" }
+jfrog-buildInfoExtractorGradle = { group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jfrogBuildInfoExtractorGradle" }
+masiv-pushAndroidSDK = { group = "com.masiv.pushandroidsdk", name = "PushAndroidSDK", version.ref = "masivPushAndroidSDK" }
+mbbk-ciam = { group = "com.bcp.core.mbbk", name = "ciam", version.ref = "ciam" }
+mbbk-ciam-cert = { group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamCert" }
+mbbk-ciam-ethical = { group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamEthical" }
+mbbk-ciam-snapshot = { group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamSnapshot" }
+mbbk-cpClientLibraryBcp = { group = "com.bcp.mbbk.library", name = "cp-client-library-bcp-production", version.ref = "cpClientLibraryBcp" }
+mbbk-cpClientLibraryBcp-snapshot = { group = "com.bcp.mbbk.library", name = "cp-client-library-bcp-testing", version.ref = "cpClientLibraryBcp" }
+mbbk-mobilepaymentVisasensorbranding = { group = "com.bcp.mbbk.library", name = "mobilepayment.visasensorbranding", version.ref = "mobilepaymentVisasensorbranding" }
+medallia-androidSdk = { group = "com.medallia.digital.mobilesdk", name = "android-sdk", version.ref = "medalliaAndroidSdk" }
+navigation-dynamicFeaturesFragment = { group = "androidx.navigation", name = "navigation-dynamic-features-fragment", version.ref = "navigationDynamicFeaturesFragment" }
+navigation-fragmentKtx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-safeArgsGradlePlugin = { group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }
+navigation-uiKtx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+nhaarman-test-mockitoKotlin = { group = "com.nhaarman.mockitokotlin2", name = "mockito-kotlin", version.ref = "nhaarmanTestMockitoKotlin" }
+rsa-cryptojce = { group = "com.rsa", name = "cryptojce", version.ref = "rsa" }
+rsa-cryptojcommon = { group = "com.rsa", name = "cryptojcommon", version.ref = "rsa" }
+rsa-securIDLib = { group = "com.rsa", name = "SecurIDLib", version.ref = "rsaSecurIDLib" }
+sonarsource-sonarqubeGradlePlugin = { group = "org.sonarsource.scanner.gradle", name = "sonarqube-gradle-plugin", version.ref = "sonarqubeGradlePlugin" }
+squareup-okhttp3-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserver" }
+support-cardviewV7 = { group = "com.android.support", name = "cardview-v7", version.ref = "supportCardViewV7" }
+support-multidex = { group = "com.android.support", name = "multidex", version.ref = "suportMultidex" }
+test-app-cash-turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+test-assertj-assertjCore = { group = "org.assertj", name = "assertj-core", version.ref = "assertjCore" }
+test-hamcrest = { group = "org.hamcrest", name = "hamcrest", version.ref = "hamcrest" }
+test-jUnit = { group = "junit", name = "junit", version.ref = "testJUnit" }
+test-mockitoCore = { group = "org.mockito", name = "mockito-core", version.ref = "testMockitoCore" }
+test-mockitoInline = { group = "org.mockito", name = "mockito-inline", version.ref = "testMockitoInline" }
+ui-mbbk-keyboard = { group = "com.bcp.ui.mbbk", name = "keyboard", version.ref = "uiMbbkKeyboard" }
+ui-mbbk-keyboard-snapshot = { group = "com.bcp.ui.mbbk", name = "keyboard", version.ref = "uiMbbkKeyboardSnapshot" }
+warda-wrdaAndroidSdk = { group = "com.bcp.warda", name = "wrda-android-sdk", version.ref = "wrdaAndroidSdk" }
+warda-wrdaAndroidSdk-snapshot = { group = "com.bcp.warda", name = "wrda-android-sdk", version.ref = "wrdaAndroidSdkSnapshot" }
+workRuntime = { group = "androidx.work", name = "work-runtime", version.ref = "workRuntime" }
+workRuntimeKtx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntime" }
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
 adobe-mobileservices = {group = "com.adobe.marketing.mobile", name = "mobileservices", version.ref = "adobeMobileservices" }
 adobe-sdkCore = {group = "com.adobe.marketing.mobile", name = "sdk-core", version.ref = "adobeSdkCore" }
@@ -244,8 +366,8 @@ baseTestImplementation = []
 buildScriptDependencies = []
 
 [plugins]
-android-application = {id = "com.android.application", version.ref = "androidGradlePlugin" }
-android-library = {id = "com.android.library", version.ref = "androidGradlePlugin" }
-jetbrains-kotlin-android = {id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-mbbk = {id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+mbbk = { id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
 
