@@ -107,3 +107,8 @@ jacksonCore-jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-dat
 io-coilKt-coilSvg = { module = "io.coil-kt:coil-svg", version.ref = "coilSvg" }
 
 facebook-sdkCore={ module ="com.facebook.android:facebook-android-sdk" , version.ref="facebookSdkCore"}
+
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseVersionBoom" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
+firebase-common-ktx = { group = "com.google.firebase", name = "firebase-common-ktx" }
+firebase-crashlytics-gradle = { group = "com.google.firebase", name = "firebase-crashlytics-gradle",version.ref = "firebaseGradle" }
