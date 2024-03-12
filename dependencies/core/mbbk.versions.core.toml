@@ -16,7 +16,7 @@ coreNetworking = "2.3.5"
 coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
 coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
 
-coreMbbkUiComponent = "1.3.26"
+#coreMbbkUiComponent = "1.3.26"
 coreMbbkUiComponentCert = "1.3.26-EH"
 coreMbbkUiComponentSnapshot = "1.3.26-20240220.025328-4"
 
