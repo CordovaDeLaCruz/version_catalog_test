@@ -33,6 +33,7 @@ coreAuthCert = "1.2.7-EH"
 coreAuthEthical = "1.2.7-EH-SNAPSHOT"
 coreAuthSnapshot = "1.2.7-20240311.191844-8"
 coreKtx = "1.3.2"
+coreMbbkUiComponent = "1.3.26"
 coreMbbkUiComponentCert = "1.3.26-EH"
 coreMbbkUiComponentSnapshot = "1.3.26-20240220.025328-4"
 coreNetworking = "2.3.5"
@@ -151,6 +152,7 @@ core-auth-cert = {group = "com.bcp.core", name = "auth", version.ref = "coreAuth
 core-auth-ethical = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthEthical" }
 core-auth-snapshot = {group = "com.bcp.core", name = "auth", version.ref = "coreAuthSnapshot" }
 core-ciam-otp = {group = "com.bcp.ciam.core.otp", name = "ciam-otp", version.ref = "coreOtp" }
+core-mbbk-uiComponent = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponent" }
 core-mbbk-uiComponent-cert = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponentCert" }
 core-mbbk-uiComponent-snapshot = {group = "com.bcp.core.mbbk", name = "ui-component", version.ref = "coreMbbkUiComponentSnapshot" }
 core-networking = {group = "com.bcp.core", name = "networking", version.ref = "coreNetworking" }

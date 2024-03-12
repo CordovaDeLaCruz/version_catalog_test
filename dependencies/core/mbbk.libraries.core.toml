@@ -14,7 +14,7 @@ core-networking = { module = "com.bcp.core:networking", version.ref = "coreNetwo
 core-networking-snapshot = { module = "com.bcp.core:networking", version.ref = "coreNetworkingSnapshot" }
 core-networking-ethical = { module = "com.bcp.core:networking", version.ref = "coreNetworkingEthical" }
 
-#core-mbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponent" }
+core-mbbk-uiComponent = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponent" }
 core-mbbk-uiComponent-cert = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponentCert" }
 core-mbbk-uiComponent-snapshot = { module = "com.bcp.core.mbbk:ui-component", version.ref = "coreMbbkUiComponentSnapshot" }
 
