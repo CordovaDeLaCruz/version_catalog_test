@@ -5,10 +5,10 @@ bankLinter = "1.0.0"
 ciam = "1.3.21"
 mbbkCiamCert = "1.3.21-EH"
 mbbkCiamEthical = "1.3.21-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.3.21-20240320.161140-11"
+mbbkCiamSnapshot = "1.3.21-20240311.203039-10"
 
 coreAuth = "1.2.7"
-coreAuthSnapshot = "1.2.7-20240320.154643-11"
+coreAuthSnapshot = "1.2.7-20240311.191844-8"
 coreAuthCert = "1.2.7-EH"
 coreAuthEthical = "1.2.7-EH-SNAPSHOT"
 
