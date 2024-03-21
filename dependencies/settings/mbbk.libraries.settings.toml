@@ -88,6 +88,7 @@ adobe-analytics = { module = "com.adobe.marketing.mobile:analytics", version.ref
 adobe-mobileservices = { module = "com.adobe.marketing.mobile:mobileservices", version.ref = "adobeMobileservices" }
 adobe-userprofile = { module = "com.adobe.marketing.mobile:userprofile", version.ref = "adobeUserprofile" }
 adobe-sdkCore = { module = "com.adobe.marketing.mobile:sdk-core", version.ref = "adobeSdkCore" }
+adobe-target = { module = "com.adobe.marketing.mobile:target", version.ref = "adobeTarget" }
 
 rsa-cryptojce = { module = "com.rsa:cryptojce", version.ref = "rsa" }
 rsa-cryptojcommon = { module = "com.rsa:cryptojcommon", version.ref = "rsa" }

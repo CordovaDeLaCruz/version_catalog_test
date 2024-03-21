@@ -9,6 +9,7 @@ adobeAnalytics = "1.2.10"
 adobeMobileservices = "1.1.5"
 adobeSdkCore = "1.11.0"
 adobeUserprofile = "1.1.0"
+adobeTarget = "1.4.0"
 airbnbLottie = "5.0.3"
 androidArchCoreTesting = "2.2.0"
 androidGradlePlugin = "7.4.0"
@@ -126,6 +127,7 @@ workRuntime = "2.7.0"
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
 adobe-mobileservices = {group = "com.adobe.marketing.mobile", name = "mobileservices", version.ref = "adobeMobileservices" }
 adobe-sdkCore = {group = "com.adobe.marketing.mobile", name = "sdk-core", version.ref = "adobeSdkCore" }
+adobe-target = {group = "com.adobe.marketing.mobile", name = "target", version.ref = "adobeTarget" }
 adobe-userprofile = {group = "com.adobe.marketing.mobile", name = "userprofile", version.ref = "adobeUserprofile" }
 airbnb-lottie = {group = "com.airbnb.android", name = "lottie", version.ref = "airbnbLottie" }
 androidGradlePlugin = {group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
