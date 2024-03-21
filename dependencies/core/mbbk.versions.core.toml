@@ -2,15 +2,15 @@
 
 bankLinter = "1.0.0"
 
-ciam = "1.3.21"
-mbbkCiamCert = "1.3.21-EH"
-mbbkCiamEthical = "1.3.21-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.3.21-20240320.200912-12"
+ciam = "1.3.22"
+mbbkCiamCert = "1.3.22-EH"
+mbbkCiamEthical = "1.3.22-EH-SNAPSHOT"
+mbbkCiamSnapshot = "1.3.22-20240321.195257-12"
 
-coreAuth = "1.2.7"
-coreAuthSnapshot = "1.2.7-20240320.195908-15"
-coreAuthCert = "1.2.7-EH"
-coreAuthEthical = "1.2.7-EH-SNAPSHOT"
+coreAuth = "1.2.8"
+coreAuthSnapshot = "1.2.8-20240321.192638-5"
+coreAuthCert = "1.2.8-EH"
+coreAuthEthical = "1.2.8-EH-SNAPSHOT"
 
 coreNetworking = "2.3.5"
 coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
