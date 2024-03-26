@@ -92,6 +92,7 @@ adobeAnalytics = "1.2.10"
 adobeMobileservices = "1.1.5"
 adobeUserprofile = "1.1.0"
 adobeSdkCore = "1.11.0"
+adobeTarget = "1.4.0"
 
 rsa = "6.2.5"
 rsaSecurIDLib = "2.8.0"
