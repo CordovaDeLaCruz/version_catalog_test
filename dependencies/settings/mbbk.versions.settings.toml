@@ -59,7 +59,7 @@ kotlin = "1.7.10"
 airbnbLottie = "5.0.3"
 
 mbbk-plugin = "1.0.1.lts"
-minSdk = "24"
+minSdk = "26"
 
 roomCompiler = "2.2.5"
 roomKtx = "2.2.5"
