@@ -17,12 +17,12 @@ lifecycleRuntimeKtx = "2.5.1"
 supportCardViewV7 = "29.0.0"
 
 navigationFragmentKtx = "2.5.1"
-navigationUiKtx = "2.1.0"
+navigationUiKtx = "2.5.1"
 navigationDynamicFeaturesFragment = "2.5.1"
 navigationSafeArgsGradlePlugin = "2.5.1"
 
 googlePlayCore = "1.8.2"
-material = "1.6.0"
+material = "1.9.0"
 googlePlayCoreKtx = "1.8.1"
 gmsGoogleServices = "4.3.14"
 gmsPlayServicesMlkitTextRecognition = "18.0.0"
@@ -59,7 +59,7 @@ kotlin = "1.7.10"
 airbnbLottie = "5.0.3"
 
 mbbk-plugin = "1.0.1.lts"
-minSdk = "26"
+minSdk = "28"
 
 roomCompiler = "2.2.5"
 roomKtx = "2.2.5"

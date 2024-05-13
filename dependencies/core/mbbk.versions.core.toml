@@ -2,37 +2,37 @@
 
 bankLinter = "1.0.0"
 
-ciam = "1.3.24"
-mbbkCiamCert = "1.3.24-EH"
-mbbkCiamEthical = "1.3.24-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.3.24-20240415.160015-3"
+ciam = "1.3.25"
+mbbkCiamCert = "1.3.25-EH"
+mbbkCiamEthical = "1.3.25-EH-SNAPSHOT"
+mbbkCiamSnapshot = "1.3.25-20240428.055554-3"
 
-coreAuth = "1.2.8"
-coreAuthSnapshot = "1.2.8-20240321.192638-5"
-coreAuthCert = "1.2.8-EH"
-coreAuthEthical = "1.2.8-EH-SNAPSHOT"
+coreAuth = "1.2.9"
+coreAuthCert = "1.2.9-EH"
+coreAuthEthical = "1.2.9-EH-SNAPSHOT"
+coreAuthSnapshot = "1.2.9-20240427.230431-7"
 
-coreNetworking = "2.3.5"
-coreNetworkingSnapshot = "2.3.5-SNAPSHOT"
+coreNetworking = "2.4.0"
+coreNetworkingSnapshot = "2.4.0-SNAPSHOT"
 coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
 
-coreMbbkUiComponent = "1.3.26"
-coreMbbkUiComponentCert = "1.3.26-EH"
-coreMbbkUiComponentSnapshot = "1.3.26-20240220.025328-4"
+coreMbbkUiComponent = "1.3.27"
+coreMbbkUiComponentCert = "1.3.27-EH"
+coreMbbkUiComponentSnapshot = "1.3.27-20240428.053351-3"
 
 coreResources = "2.5.0"
-coreStorage = "1.1.0"
+coreStorage = "1.4.0"
 coreUtil = "1.0.0"
 corePushnotification = "1.0.2"
 coreUiComponent = "2.4.1"
-uiMbbkKeyboardSnapshot = "1.4.7-20240307.220715-2"
-uiMbbkKeyboard = "1.4.7"
+uiMbbkKeyboardSnapshot = "1.4.8-20240428.020536-1"
+uiMbbkKeyboard = "1.4.8"
 
 cpClientLibraryBcp = "3.0.9"
 mobilepaymentVisasensorbranding = "1.0.0"
 
-facialAuthAndroidMbbkSnapshot = "3.3.12-20230731.144911-1"
-facialAuthAndroidMbbk = "3.3.12"
+facialAuthAndroidMbbkSnapshot = "4.0.1-20230922.161033-1"
+facialAuthAndroidMbbk = "4.0.1"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
 
 masivPushAndroidSDK = "1.1.3"
@@ -40,3 +40,6 @@ masivPushAndroidSDK = "1.1.3"
 medalliaAndroidSdk = "4.0.2"
 
 coreOtp = "0.1.0"
+
+wrdaAndroidSdk = "1.0.0"
+wrdaAndroidSdkSnapshot = "1.0.0-20240411.205226-48"
