@@ -32,7 +32,7 @@ cpClientLibraryBcp = "3.0.9"
 mobilepaymentVisasensorbranding = "1.0.0"
 
 facialAuthAndroidMbbkSnapshot = "4.0.1-20230922.161033-1"
-facialAuthAndroidMbbk = "4.0.1.1"
+facialAuthAndroidMbbk = "4.0.1"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
 
 masivPushAndroidSDK = "1.1.3"
