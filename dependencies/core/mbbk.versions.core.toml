@@ -31,7 +31,7 @@ uiMbbkKeyboard = "1.4.8"
 cpClientLibraryBcp = "3.0.9"
 mobilepaymentVisasensorbranding = "1.0.0"
 
-facialAuthAndroidMbbkSnapshot = "4.0.1-20230922.161033-1"
+facialAuthAndroidMbbkSnapshot = "4.0.1.1-SNAPSHOT"
 facialAuthAndroidMbbk = "4.0.1.1"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
 
@@ -42,4 +42,5 @@ medalliaAndroidSdk = "4.0.2"
 coreOtp = "0.1.0"
 
 wrdaAndroidSdk = "1.0.0"
+wrdaAndroidSdkCert = "1.0.0-CERT"
 wrdaAndroidSdkSnapshot = "1.0.0-20240411.205226-48"
