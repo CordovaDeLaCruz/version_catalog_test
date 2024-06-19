@@ -31,8 +31,8 @@ uiMbbkKeyboard = "1.4.8"
 cpClientLibraryBcp = "3.0.9"
 mobilepaymentVisasensorbranding = "1.0.0"
 
-facialAuthAndroidMbbkSnapshot = "4.0.1.1-SNAPSHOT"
-facialAuthAndroidMbbk = "4.0.1.1"
+facialAuthAndroidMbbkSnapshot = "4.0.1.2-SNAPSHOT"
+facialAuthAndroidMbbk = "4.0.1.2"
 facialAuthAndroidBcpEhEthical = "0.0.3-SNAPSHOT"
 
 masivPushAndroidSDK = "1.1.3"
