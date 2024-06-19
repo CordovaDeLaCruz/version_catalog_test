@@ -100,14 +100,12 @@ mockwebserver = "4.9.3"
 navigationDynamicFeaturesFragment = "2.5.1"
 navigationFragmentKtx = "2.5.1"
 navigationSafeArgsGradlePlugin = "2.5.1"
-navigationUiKtx = "2.5.1"
+navigationUiKtx = "2.1.0"
 nhaarmanTestMockitoKotlin = "2.2.0"
 playServicesAuth = "20.3.0"
 playServicesAuthApiPhone = "18.0.1"
 playServicesLocation = "17.1.0"
 playServicesPlaces = "17.0.0"
-qrScan = "1.0.2"
-qrScanSnapshot = "1.0.2-SNAPSHOT"
 roomCompiler = "2.2.5"
 roomKtx = "2.2.5"
 roomRuntime = "2.2.5"
@@ -233,8 +231,6 @@ navigation-fragmentKtx = {group = "androidx.navigation", name = "navigation-frag
 navigation-safeArgsGradlePlugin = {group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }
 navigation-uiKtx = {group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 nhaarman-test-mockitoKotlin = {group = "com.nhaarman.mockitokotlin2", name = "mockito-kotlin", version.ref = "nhaarmanTestMockitoKotlin" }
-qr-scan = {group = "com.bcp.core", name = "qr", version.ref = "qrScan" }
-qr-scan-snapshot = {group = "com.bcp.core", name = "qr", version.ref = "qrScanSnapshot" }
 rsa-cryptojce = {group = "com.rsa", name = "cryptojce", version.ref = "rsa" }
 rsa-cryptojcommon = {group = "com.rsa", name = "cryptojcommon", version.ref = "rsa" }
 rsa-securIDLib = {group = "com.rsa", name = "SecurIDLib", version.ref = "rsaSecurIDLib" }
