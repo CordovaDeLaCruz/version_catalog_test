@@ -40,7 +40,7 @@ facebookShimmer = "0.5.0"
 suportMultidex = "1.0.3"
 
 firebaseMessagingKtx = "20.3.0"
-firebaseFirestoreKtx = "24.11.1"
+firebaseFirestoreKtx = "24.9.1"
 
 androidMapsUtils = "2.1.0"
 artifactory-plugin = "4.1.1"
