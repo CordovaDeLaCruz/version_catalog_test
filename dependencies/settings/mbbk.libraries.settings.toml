@@ -92,7 +92,9 @@ adobe-target = { module = "com.adobe.marketing.mobile:target", version.ref = "ad
 
 rsa-cryptojce = { module = "com.rsa:cryptojce", version.ref = "rsa" }
 rsa-cryptojcommon = { module = "com.rsa:cryptojcommon", version.ref = "rsa" }
-rsa-securIDLib = { module = "com.rsa:SecurIDLib", version.ref = "rsaSecurIDLib" }
+rsa-sslj = { module = "com.rsa:sslj", version.ref = "rsa" }
+rsa-mfaSecurIDLib = { module = "com.rsa:mfasecuridlib", version.ref = "mfaSecurIDLib" }
+rsa-mfaSecurIDLib-extension = { module = "com.rsa:mfasecuridlib-extension", version.ref = "mfaSecurIDLib" }
 
 gradle-pluginPublish = { module = "com.gradle.publish:plugin-publish-plugin", version.ref = "gradlePluginPublish" }
 github-dcendents-androidMavenGradlePlugin = { module = "com.github.dcendents:android-maven-gradle-plugin", version.ref = "dcendentsAndroidMavenGradlePlugin" }

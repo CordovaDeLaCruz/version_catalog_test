@@ -51,3 +51,6 @@ core-ciam-otp = { module = "com.bcp.ciam.core.otp:ciam-otp", version.ref = "core
 warda-wrdaAndroidSdk = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdk" }
 warda-wrdaAndroidSdk-cert = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdkCert" }
 warda-wrdaAndroidSdk-snapshot = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdkSnapshot" }
+
+qr-scan-snapshot = { module = "com.bcp.core:qr", version.ref = "qrScanSnapshot"}
+qr-scan = { module = "com.bcp.core:qr", version.ref = "qrScan"}

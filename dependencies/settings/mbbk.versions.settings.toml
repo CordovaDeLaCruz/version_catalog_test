@@ -17,11 +17,11 @@ lifecycleRuntimeKtx = "2.5.1"
 supportCardViewV7 = "29.0.0"
 
 navigationFragmentKtx = "2.5.1"
-navigationUiKtx = "2.1.0"
+navigationUiKtx = "2.5.1"
 navigationDynamicFeaturesFragment = "2.5.1"
 navigationSafeArgsGradlePlugin = "2.5.1"
 
-googlePlayCore = "1.8.2"
+googlePlayCore = "1.10.3"
 material = "1.9.0"
 googlePlayCoreKtx = "1.8.1"
 gmsGoogleServices = "4.3.14"
@@ -44,7 +44,7 @@ firebaseFirestoreKtx = "24.11.1"
 
 androidMapsUtils = "2.1.0"
 artifactory-plugin = "4.1.1"
-compileSdk = "33"
+compileSdk = "34"
 
 dynatraceAgentAndroid = "8.263.1.1002"
 dynatraceGradlePlugin = "8.263.1.1002"
@@ -64,7 +64,7 @@ minSdk = "28"
 roomCompiler = "2.2.5"
 roomKtx = "2.2.5"
 roomRuntime = "2.2.5"
-targetSdk = "33"
+targetSdk = "34"
 workRuntime = "2.7.0"
 
 testJUnit = "4.13.2"
@@ -83,8 +83,8 @@ androidxTestjUnit = "1.1.5"
 androidTestRunner = "1.5.1"
 androidxTestExpressoCore = "3.5.1"
 
-guardsquareDexguardGradlePlugin = "9.4.14"
-guardsquareDexguard = "9.4.14"
+guardsquareDexguardGradlePlugin = "9.8.1"
+guardsquareDexguard = "9.8.1"
 
 jetbrainsKotlinxCoroutines = "1.6.4"
 
@@ -95,7 +95,7 @@ adobeSdkCore = "1.11.0"
 adobeTarget = "1.4.0"
 
 rsa = "6.2.5"
-rsaSecurIDLib = "2.8.0"
+mfaSecurIDLib = "4.0.2.4"
 
 gradlePluginPublish = "0.9.9"
 dcendentsAndroidMavenGradlePlugin = "1.5"
