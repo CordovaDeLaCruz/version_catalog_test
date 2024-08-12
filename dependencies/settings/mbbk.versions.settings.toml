@@ -22,8 +22,11 @@ navigationDynamicFeaturesFragment = "2.5.1"
 navigationSafeArgsGradlePlugin = "2.5.1"
 
 googlePlayCore = "1.10.3"
+googleFeatureDelivery = "2.1.0"
 material = "1.9.0"
 googlePlayCoreKtx = "1.8.1"
+androidxCoreKtx = "1.13.1"
+googleFeatureDeliveryKtx = "2.1.0"
 gmsGoogleServices = "4.3.14"
 gmsPlayServicesMlkitTextRecognition = "18.0.0"
 

@@ -15,6 +15,7 @@ androidArchCoreTesting = "2.2.0"
 androidGradlePlugin = "7.4.0"
 androidMapsUtils = "2.1.0"
 androidTestRunner = "1.5.1"
+androidxCoreKtx = "1.13.1"
 androidxTestExpressoCore = "3.5.1"
 androidxTestjUnit = "1.1.5"
 androidxViewpager2 = "1.0.0"
@@ -64,6 +65,8 @@ firebaseMessagingKtx = "20.3.0"
 firebaseVersionBoom = "32.5.0"
 gmsGoogleServices = "4.3.14"
 gmsPlayServicesMlkitTextRecognition = "18.0.0"
+googleFeatureDelivery = "2.1.0"
+googleFeatureDeliveryKtx = "2.1.0"
 googlePlayCore = "1.10.3"
 googlePlayCoreKtx = "1.8.1"
 gradleMavenPluginPublish = "0.18.0"
@@ -145,6 +148,7 @@ androidx-lifecycleCommonJava8 = {group = "androidx.lifecycle", name = "lifecycle
 androidx-lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
 androidx-lifecycleRuntimeKtx = {group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-playCoreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreKtx" }
 androidx-roomCompiler = {group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
 androidx-roomKtx = {group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 androidx-roomRuntime = {group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
@@ -198,6 +202,8 @@ gms-playServicesLocation = {group = "com.google.android.gms", name = "play-servi
 gms-playServicesMlkitTextRecognition = {group = "com.google.android.gms", name = "play-services-mlkit-text-recognition", version.ref = "gmsPlayServicesMlkitTextRecognition" }
 gms-playServicesPlaces = {group = "com.google.android.gms", name = "play-services-places", version.ref = "playServicesPlaces" }
 google-androidMapsUtils = {group = "com.google.maps.android", name = "android-maps-utils", version.ref = "androidMapsUtils" }
+google-featureDelivery = {group = "com.google.android.play", name = "feature-delivery", version.ref = "googleFeatureDelivery" }
+google-featureDeliveryKtx = {group = "com.google.android.play", name = "feature-delivery-ktx", version.ref = "googleFeatureDeliveryKtx" }
 google-gson = {group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 google-material = {group = "com.google.android.material", name = "material", version.ref = "material" }
 google-playCore = {group = "com.google.android.play", name = "core", version.ref = "googlePlayCore" }
