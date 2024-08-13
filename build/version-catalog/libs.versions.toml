@@ -143,12 +143,12 @@ androidTest-runner = {group = "androidx.test", name = "runner", version.ref = "a
 androidx-annotation = {group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
 androidx-arch-coreTesting = {group = "androidx.arch.core", name = "core-testing", version.ref = "androidArchCoreTesting" }
 androidx-browser = {group = "androidx.browser", name = "browser", version.ref = "browser" }
+androidx-coreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreKtx" }
 androidx-coreSplashscreen = {group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-lifecycleCommonJava8 = {group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycleCommonJava8" }
 androidx-lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
 androidx-lifecycleRuntimeKtx = {group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
-androidx-playCoreKtx = {group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreKtx" }
 androidx-roomCompiler = {group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
 androidx-roomKtx = {group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 androidx-roomRuntime = {group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
