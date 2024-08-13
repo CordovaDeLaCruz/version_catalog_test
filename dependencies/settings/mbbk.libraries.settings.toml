@@ -29,7 +29,7 @@ google-playCore = { module = "com.google.android.play:core", version.ref = "goog
 google-featureDelivery = { module = "com.google.android.play:feature-delivery", version.ref = "googleFeatureDelivery" }
 google-material = { module = "com.google.android.material:material", version.ref = "material" }
 google-playCoreKtx = { module = "com.google.android.play:core-ktx", version.ref = "googlePlayCoreKtx" }
-androidx-playCoreKtx = { module = "androidx.core:core-ktx", version.ref = "androidxCoreKtx" }
+androidx-coreKtx = { module = "androidx.core:core-ktx", version.ref = "androidxCoreKtx" }
 google-featureDeliveryKtx = { module = "com.google.android.play:feature-delivery-ktx", version.ref = "googleFeatureDeliveryKtx" }
 google-androidMapsUtils = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtils" }
 gms-googleServices = { module = "com.google.gms:google-services", version.ref = "gmsGoogleServices" }
