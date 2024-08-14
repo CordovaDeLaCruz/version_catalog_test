@@ -21,7 +21,6 @@ core-mbbk-uiComponent-snapshot = { module = "com.bcp.core.mbbk:ui-component", ve
 core-resources = { module = "com.bcp.core:resources", version.ref = "coreResources" }
 core-storage = { module = "com.bcp.core:storage", version.ref = "coreStorage" }
 core-util = { module = "com.bcp.core:util", version.ref = "coreUtil" }
-core-pushnotification = { module = "com.bcp.core:pushnotification", version.ref = "corePushnotification" }
 core-uiComponent = { module = "com.bcp.core:ui-component", version.ref = "coreUiComponent" }
 
 ui-mbbk-keyboard-snapshot = { module = "com.bcp.ui.mbbk:keyboard", version.ref = "uiMbbkKeyboardSnapshot" }
