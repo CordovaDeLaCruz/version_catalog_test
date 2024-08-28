@@ -129,9 +129,9 @@ turbine = "0.9.0"
 uiMbbkKeyboard = "1.4.9"
 uiMbbkKeyboardSnapshot = "1.4.9-20240807.212122-2"
 workRuntime = "2.7.0"
-wrdaAndroidSdk = "1.0.0"
-wrdaAndroidSdkCert = "1.0.0-CERT"
-wrdaAndroidSdkSnapshot = "1.0.0-20240411.205226-48"
+wrdaAndroidSdk = "1.0.2"
+wrdaAndroidSdkCert = "1.0.2"
+wrdaAndroidSdkSnapshot = "1.0.2-20240816.003324-100"
 
 [libraries]
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
