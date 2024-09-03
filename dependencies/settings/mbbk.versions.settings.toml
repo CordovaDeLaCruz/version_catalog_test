@@ -54,12 +54,12 @@ compileSdk = "34"
 dynatraceAgentAndroid = "8.263.1.1002"
 dynatraceGradlePlugin = "8.263.1.1002"
 
-androidGradlePlugin = "7.4.0"
+androidGradlePlugin = "8.1.4"
 gradleMavenPluginPublish = "0.18.0"
 gson = "2.8.5"
 jfrogBuildInfoExtractorGradle = "4.31.9"
 jvmTarget = "11"
-kotlin = "1.7.10"
+kotlin = "1.9.20"
 
 airbnbLottie = "5.0.3"
 
@@ -114,7 +114,7 @@ huaweiAgcp = "1.5.2.300"
 
 sonarqubeGradlePlugin = "3.4.0.2513"
 
-facephi = "8.0"
+facephi = "12.0"
 jacksonCoreJacksonDatabind = "2.10.1"
 coilSvg = "1.4.0"
 facebookSdkCore = "16.0.0"
