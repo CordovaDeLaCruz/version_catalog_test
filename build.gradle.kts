@@ -1,4 +1,5 @@
 import org.gradle.api.internal.catalog.parser.TomlCatalogFileParser
+import kotlin.io.path.Path
 
 group = "com.bcp.bank"
 version = "defined-by-git-tag"
@@ -21,7 +22,10 @@ val defaultFiles = listOf(
 
 catalog {
     versionCatalog {
-        defaultFiles.forEach { TomlCatalogFileParser.parse(file(it).inputStream(),this) }
+        defaultFiles.forEach {
+            val filePath = file(it).path
+            TomlCatalogFileParser.parse(Path(filePath), this)
+        }
     }
 }
 
