@@ -59,7 +59,7 @@ gradleMavenPluginPublish = "0.18.0"
 gson = "2.8.5"
 jfrogBuildInfoExtractorGradle = "4.31.9"
 jvmTarget = "11"
-kotlin = "1.9.20"
+kotlin = "1.9.24"
 
 airbnbLottie = "5.0.3"
 
