@@ -42,7 +42,7 @@ coreOtp = "0.1.0"
 
 wrdaAndroidSdk = "1.2.0"
 wrdaAndroidSdkCert = "1.2.0-CERT"
-wrdaAndroidSdkSnapshot = "1.2.0-SNAPSHOT"
+wrdaAndroidSdkSnapshot = "1.2.0-CERT-SNAPSHOT"
 
 qrScanSnapshot = "1.0.2-SNAPSHOT"
 qrScan = "1.0.2"
