@@ -8,14 +8,14 @@ biometric = { module = "androidx.biometric:biometric", version.ref = "biometric"
 androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "androidxViewpager2" }
 androidx-coreSplashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
-
-androidx-lifecycleExtensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions"}
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerView" }
+androidx-lifecycleExtensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
 androidx-lifecycleViewmodelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-lifecycleCommonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycleCommonJava8" }
 androidx-lifecycleRuntimeKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
-
 support-cardviewV7 = { module = "com.android.support:cardview-v7", version.ref = "supportCardViewV7" }
-
+fragment-compose = {module = "androidx.fragment:fragment-compose", version.ref = "fragmentcompose" }
+fragment-ktx = {module = "androidx.fragment:fragment-ktx", version.ref = "fragmentcompose" }
 navigation-fragmentKtx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 navigation-uiKtx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
 navigation-dynamicFeaturesFragment = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "navigationDynamicFeaturesFragment" }
@@ -115,9 +115,12 @@ jacksonCore-jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-dat
 
 io-coilKt-coilSvg = { module = "io.coil-kt:coil-svg", version.ref = "coilSvg" }
 
-facebook-sdkCore={ module ="com.facebook.android:facebook-android-sdk" , version.ref="facebookSdkCore"}
+facebook-sdkCore = { module = "com.facebook.android:facebook-android-sdk", version.ref = "facebookSdkCore" }
 
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseVersionBoom" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
 firebase-common-ktx = { group = "com.google.firebase", name = "firebase-common-ktx" }
-firebase-crashlytics-gradle = { group = "com.google.firebase", name = "firebase-crashlytics-gradle",version.ref = "firebaseGradle" }
+firebase-crashlytics-gradle = { group = "com.google.firebase", name = "firebase-crashlytics-gradle", version.ref = "firebaseGradle" }
+
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }

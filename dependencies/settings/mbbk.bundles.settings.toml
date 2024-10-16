@@ -6,4 +6,22 @@ baseImplementation = [
 ]
 
 baseTestImplementation = [
+    "test-jUnit",
+    "test-mockitoInline",
+    "test-mockitoCore",
+    "io-mockk",
+    "androidx-arch-coreTesting",
+    "squareup-okhttp3-mockwebserver",
+    "jetbrains-test-kotlinxCoroutineTest",
+    "jetbrains-kotlinxCoroutinesCore",
+    "test-app-cash-turbine",
+    "nhaarman-test-mockitoKotlin",
+]
+
+facephi = [
+    "facephi-fphiCoreWidgetAndroid",
+    "facephi-fphiSelphiWidgetAndroid",
+    "facephi-fphiSelphidCoreAndroid",
+    "facephi-fphiSelphidDrawerAndroid",
+    "facephi-fphiSelphidExtractor"
 ]

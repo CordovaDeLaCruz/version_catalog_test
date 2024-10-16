@@ -38,8 +38,8 @@ facephi-fphiSelphidDrawerAndroid = { module = "com.facephi.android:fphi-selphid-
 facephi-fphiSelphidExtractor = { module = "com.facephi.android:fphi-selphid-extractor", version.ref = "facephi" }
 
 facialAuth-androidMbbk-snapshot = { module = "com.bcp.ciam.facialauth:android-MBBK", version.ref = "facialAuthAndroidMbbkSnapshot" }
-facialAuth-androidMbbk =  { module = "com.bcp.ciam.facialauth:android-MBBK", version.ref = "facialAuthAndroidMbbk" }
-facialAuth-androidBcpEh-ethical =  { module = "com.bcp.ciam.facialauth:android-bcp-EH", version.ref = "facialAuthAndroidBcpEhEthical" }
+facialAuth-androidMbbk = { module = "com.bcp.ciam.facialauth:android-MBBK", version.ref = "facialAuthAndroidMbbk" }
+facialAuth-androidBcpEh-ethical = { module = "com.bcp.ciam.facialauth:android-bcp-EH", version.ref = "facialAuthAndroidBcpEhEthical" }
 
 masiv-pushAndroidSDK = { module = "com.masiv.pushandroidsdk:PushAndroidSDK", version.ref = "masivPushAndroidSDK" }
 

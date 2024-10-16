@@ -13,13 +13,16 @@ lifecycleExtensions = "2.2.0"
 lifecycleViewmodelKtx = "2.2.0"
 lifecycleCommonJava8 = "2.4.1"
 lifecycleRuntimeKtx = "2.5.1"
+recyclerView = "1.1.0"
 
 supportCardViewV7 = "29.0.0"
-
 navigationFragmentKtx = "2.7.7"
 navigationUiKtx = "2.5.1"
 navigationDynamicFeaturesFragment = "2.5.1"
 navigationSafeArgsGradlePlugin = "2.5.1"
+fragmentcompose = "1.8.3"
+
+
 
 googlePlayCore = "1.10.3"
 googleFeatureDelivery = "2.1.0"
@@ -78,8 +81,8 @@ testMockitoInline = "3.3.3"
 nhaarmanTestMockitoKotlin = "2.2.0"
 jetbrainsTestKotlinxCoroutineTest = "1.6.4"
 androidArchCoreTesting = "2.2.0"
-ioMockk = "1.12.2"
-mockwebserver = "4.9.3"
+ioMockk = "1.13.3"
+mockwebserver = "4.10.0"
 turbine = "0.9.0"
 hamcrest = "2.2"
 assertjCore = "3.21.0"
@@ -121,3 +124,4 @@ facebookSdkCore = "16.0.0"
 
 firebaseVersionBoom = "32.5.0"
 firebaseGradle = "2.9.9"
+hilt = "2.48"

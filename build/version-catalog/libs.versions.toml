@@ -34,11 +34,11 @@ constraintlayout = "2.1.4"
 coreAuth = "1.2.9"
 coreAuthCert = "1.2.9.06-EH"
 coreAuthEthical = "1.2.9-EH-SNAPSHOT"
-coreAuthSnapshot = "1.2.9.01-20240816.153649-4"
+coreAuthSnapshot = "1.3.06-20241014.203804-1"
 coreKtx = "1.3.2"
-coreMbbkUiComponent = "1.3.27"
-coreMbbkUiComponentCert = "1.3.27-EH"
-coreMbbkUiComponentSnapshot = "1.3.27-20240428.053351-3"
+coreMbbkUiComponent = "1.3.28"
+coreMbbkUiComponentCert = "1.3.28-EH"
+coreMbbkUiComponentSnapshot = "1.3.28-SNAPSHOT"
 coreNetworking = "2.7.0"
 coreNetworkingEthical = "0.0.3-EH-SNAPSHOT"
 coreNetworkingSnapshot = "2.7.0-SNAPSHOT"
@@ -63,6 +63,7 @@ firebaseFirestoreKtx = "24.11.1"
 firebaseGradle = "2.9.9"
 firebaseMessagingKtx = "20.3.0"
 firebaseVersionBoom = "32.5.0"
+fragmentcompose = "1.8.3"
 gmsGoogleServices = "4.3.14"
 gmsPlayServicesMlkitTextRecognition = "18.0.0"
 googleFeatureDelivery = "2.1.0"
@@ -77,10 +78,11 @@ gson = "2.8.5"
 guardsquareDexguard = "9.8.1"
 guardsquareDexguardGradlePlugin = "9.8.1"
 hamcrest = "2.2"
+hilt = "2.48"
 hmsLocation = "6.7.0.300"
 hmsMaps = "5.0.3.302"
 huaweiAgcp = "1.5.2.300"
-ioMockk = "1.12.2"
+ioMockk = "1.13.3"
 jacksonCoreJacksonDatabind = "2.10.1"
 jetbrainsKotlinxCoroutines = "1.6.4"
 jetbrainsKotlinxMetadataJvm = "0.5.0"
@@ -97,12 +99,12 @@ material = "1.9.0"
 mbbk-plugin = "1.0.1.lts"
 mbbkCiamCert = "1.3.27.06-EH"
 mbbkCiamEthical = "1.3.27-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.3.27.30.6-20241002.022917-18"
+mbbkCiamSnapshot = "1.3.27.06-20241016.214519-4"
 medalliaAndroidSdk = "4.0.2"
 mfaSecurIDLib = "4.0.2.4"
 minSdk = "28"
 mobilepaymentVisasensorbranding = "1.0.0"
-mockwebserver = "4.9.3"
+mockwebserver = "4.10.0"
 navigationDynamicFeaturesFragment = "2.5.1"
 navigationFragmentKtx = "2.7.7"
 navigationSafeArgsGradlePlugin = "2.5.1"
@@ -114,6 +116,7 @@ playServicesLocation = "17.1.0"
 playServicesPlaces = "17.0.0"
 qrScan = "1.0.2"
 qrScanSnapshot = "1.0.2-SNAPSHOT"
+recyclerView = "1.1.0"
 roomCompiler = "2.2.5"
 roomKtx = "2.2.5"
 roomRuntime = "2.2.5"
@@ -152,6 +155,7 @@ androidx-lifecycleCommonJava8 = {group = "androidx.lifecycle", name = "lifecycle
 androidx-lifecycleExtensions = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
 androidx-lifecycleRuntimeKtx = {group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycleViewmodelKtx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-recyclerview = {group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerView" }
 androidx-roomCompiler = {group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
 androidx-roomKtx = {group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 androidx-roomRuntime = {group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
@@ -195,6 +199,8 @@ firebase-crashlytics = {group = "com.google.firebase", name = "firebase-crashlyt
 firebase-crashlytics-gradle = {group = "com.google.firebase", name = "firebase-crashlytics-gradle", version.ref = "firebaseGradle" }
 firebase-firestoreKtx = {group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
 firebase-messagingKtx = {group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+fragment-compose = {group = "androidx.fragment", name = "fragment-compose", version.ref = "fragmentcompose" }
+fragment-ktx = {group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentcompose" }
 github-dcendents-androidMavenGradlePlugin = {group = "com.github.dcendents", name = "android-maven-gradle-plugin", version.ref = "dcendentsAndroidMavenGradlePlugin" }
 gitlab-arturbosch-detektGradlePlugin = {group = "io.gitlab.arturbosch.detekt", name = "detekt-gradle-plugin", version.ref = "detektGradlePlugin" }
 gms-googleServices = {group = "com.google.gms", name = "google-services", version.ref = "gmsGoogleServices" }
@@ -217,6 +223,8 @@ gradleMavenPluginPublish = {group = "com.vanniktech", name = "gradle-maven-publi
 guardsquare-dexguardGradlePlugin = {group = "com.guardsquare", name = "dexguard-gradle-plugin", version.ref = "guardsquareDexguardGradlePlugin" }
 guardsquare-dexguardRasp = {group = "com.guardsquare", name = "dexguard-rasp", version.ref = "guardsquareDexguard" }
 guardsquare-dexguardRuntime = {group = "com.guardsquare", name = "dexguard-runtime", version.ref = "guardsquareDexguard" }
+hilt-android = {group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = {group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 hms-location = {group = "com.huawei.hms", name = "location", version.ref = "hmsLocation" }
 hms-maps = {group = "com.huawei.hms", name = "maps", version.ref = "hmsMaps" }
 huawei-agcp = {group = "com.huawei.agconnect", name = "agcp", version.ref = "huaweiAgcp" }
@@ -270,12 +278,19 @@ workRuntimeKtx = {group = "androidx.work", name = "work-runtime-ktx", version.re
 
 [bundles]
 baseImplementation = []
-baseTestImplementation = []
+baseTestImplementation = ["test-jUnit", "test-mockitoInline", "test-mockitoCore", "io-mockk", "androidx-arch-coreTesting", "squareup-okhttp3-mockwebserver", "jetbrains-test-kotlinxCoroutineTest", "jetbrains-kotlinxCoroutinesCore", "test-app-cash-turbine", "nhaarman-test-mockitoKotlin"]
 buildScriptDependencies = []
+facephi = ["facephi-fphiCoreWidgetAndroid", "facephi-fphiSelphiWidgetAndroid", "facephi-fphiSelphidCoreAndroid", "facephi-fphiSelphidDrawerAndroid", "facephi-fphiSelphidExtractor"]
 
 [plugins]
 android-application = {id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = {id = "com.android.library", version.ref = "androidGradlePlugin" }
+android-safeargs = {id = "androidx.navigation.safeargs.kotlin", version.ref = "navigationSafeArgsGradlePlugin" }
+firebase-crashlytics = {id = "com.google.firebase.crashlytics", version.ref = "firebaseGradle" }
+google-services = {id = "com.google.gms.google-services", version.ref = "gmsGoogleServices" }
+hilt-android = {id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 jetbrains-kotlin-android = {id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrains-kotlin-kapt = {id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+jetbrains-kotlin-parcelize = {id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 mbbk = {id = "com.bcp.bank.mbbk", version.ref = "mbbk-plugin" }
 
