@@ -88,6 +88,7 @@ jetbrainsKotlinxCoroutines = "1.6.4"
 jetbrainsKotlinxMetadataJvm = "0.5.0"
 jetbrainsTestKotlinxCoroutineTest = "1.6.4"
 jfrogBuildInfoExtractorGradle = "4.31.9"
+jna = "5.5.0"
 jvmTarget = "11"
 kotlin = "1.9.24"
 lifecycleCommonJava8 = "2.4.1"
@@ -110,8 +111,10 @@ navigationFragmentKtx = "2.7.7"
 navigationSafeArgsGradlePlugin = "2.5.1"
 navigationUiKtx = "2.5.1"
 nhaarmanTestMockitoKotlin = "2.2.0"
+okhttp = "4.9.1"
 playServicesAuth = "20.3.0"
 playServicesAuthApiPhone = "18.0.1"
+playServicesBase = "18.5.0"
 playServicesLocation = "17.1.0"
 playServicesPlaces = "17.0.0"
 qrScan = "1.0.2"
@@ -128,13 +131,14 @@ targetSdk = "34"
 testJUnit = "4.13.2"
 testMockitoCore = "4.3.1"
 testMockitoInline = "3.3.3"
+tpcSdk = "1.11.1"
 turbine = "0.9.0"
 uiMbbkKeyboard = "1.4.9"
 uiMbbkKeyboardSnapshot = "1.4.9-20240807.212122-2"
 workRuntime = "2.7.0"
 wrdaAndroidSdk = "1.2.0"
-wrdaAndroidSdkCert = "1.1.902-CERT"
-wrdaAndroidSdkSnapshot = "1.1.902-CERT-SNAPSHOT"
+wrdaAndroidSdkCert = "1.2.1-CERT"
+wrdaAndroidSdkSnapshot = "1.2.1-CERT-SNAPSHOT"
 
 [libraries]
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
@@ -206,6 +210,7 @@ gitlab-arturbosch-detektGradlePlugin = {group = "io.gitlab.arturbosch.detekt", n
 gms-googleServices = {group = "com.google.gms", name = "google-services", version.ref = "gmsGoogleServices" }
 gms-playServicesAuth = {group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
 gms-playServicesAuthApiPhone = {group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
+gms-playServicesBase = {group = "com.google.android.gms", name = "play-services-base", version.ref = "playServicesBase" }
 gms-playServicesLocation = {group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 gms-playServicesMlkitTextRecognition = {group = "com.google.android.gms", name = "play-services-mlkit-text-recognition", version.ref = "gmsPlayServicesMlkitTextRecognition" }
 gms-playServicesPlaces = {group = "com.google.android.gms", name = "play-services-places", version.ref = "playServicesPlaces" }
@@ -231,6 +236,7 @@ huawei-agcp = {group = "com.huawei.agconnect", name = "agcp", version.ref = "hua
 io-coilKt-coilSvg = {group = "io.coil-kt", name = "coil-svg", version.ref = "coilSvg" }
 io-mockk = {group = "io.mockk", name = "mockk", version.ref = "ioMockk" }
 jacksonCore-jacksonDatabind = {group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "jacksonCoreJacksonDatabind" }
+java-dev-jna = {group = "net.java.dev.jna", name = "jna", version.ref = "jna" }
 jetbrains-kotlinGradlePlugin = {group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 jetbrains-kotlinxCoroutinesAndroid = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "jetbrainsKotlinxCoroutines" }
 jetbrains-kotlinxCoroutinesCore = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "jetbrainsKotlinxCoroutines" }
@@ -259,6 +265,8 @@ rsa-mfaSecurIDLib = {group = "com.rsa", name = "mfasecuridlib", version.ref = "m
 rsa-mfaSecurIDLib-extension = {group = "com.rsa", name = "mfasecuridlib-extension", version.ref = "mfaSecurIDLib" }
 rsa-sslj = {group = "com.rsa", name = "sslj", version.ref = "rsa" }
 sonarsource-sonarqubeGradlePlugin = {group = "org.sonarsource.scanner.gradle", name = "sonarqube-gradle-plugin", version.ref = "sonarqubeGradlePlugin" }
+squareup-okhttp3 = {group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+squareup-okhttp3-interceptor = {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
 squareup-okhttp3-mockwebserver = {group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserver" }
 support-cardviewV7 = {group = "com.android.support", name = "cardview-v7", version.ref = "supportCardViewV7" }
 support-multidex = {group = "com.android.support", name = "multidex", version.ref = "suportMultidex" }
@@ -268,6 +276,8 @@ test-hamcrest = {group = "org.hamcrest", name = "hamcrest", version.ref = "hamcr
 test-jUnit = {group = "junit", name = "junit", version.ref = "testJUnit" }
 test-mockitoCore = {group = "org.mockito", name = "mockito-core", version.ref = "testMockitoCore" }
 test-mockitoInline = {group = "org.mockito", name = "mockito-inline", version.ref = "testMockitoInline" }
+thales-tpcSdk = {group = "com.thalesgroup.tpcsdk", name = "tpcsdk", version.ref = "tpcSdk" }
+thales-tpcSdk-snapshot = {group = "com.thalesgroup.tpcsdk", name = "tpcsdk-debug", version.ref = "tpcSdk" }
 ui-mbbk-keyboard = {group = "com.bcp.ui.mbbk", name = "keyboard", version.ref = "uiMbbkKeyboard" }
 ui-mbbk-keyboard-snapshot = {group = "com.bcp.ui.mbbk", name = "keyboard", version.ref = "uiMbbkKeyboardSnapshot" }
 warda-wrdaAndroidSdk = {group = "com.bcp.warda", name = "wrda-android-sdk", version.ref = "wrdaAndroidSdk" }

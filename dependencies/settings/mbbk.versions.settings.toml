@@ -125,3 +125,8 @@ facebookSdkCore = "16.0.0"
 firebaseVersionBoom = "32.5.0"
 firebaseGradle = "2.9.9"
 hilt = "2.48"
+
+tpcSdk = "1.11.1"
+okhttp = "4.9.1"
+jna = "5.5.0"
+playServicesBase="18.5.0"
