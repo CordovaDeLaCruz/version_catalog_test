@@ -3,12 +3,12 @@
 bankLinter = "1.0.0"
 
 ciam = "1.3.27"
-mbbkCiamCert = "1.3.27.06-EH"
+mbbkCiamCert = "1.4.0-EH"
 mbbkCiamEthical = "1.3.27-EH-SNAPSHOT"
 mbbkCiamSnapshot = "1.3.27.06-20241017.180425-7"
 
 coreAuth = "1.2.9"
-coreAuthCert = "1.2.9.06-EH"
+coreAuthCert = "1.4.0-EH"
 coreAuthEthical = "1.2.9-EH-SNAPSHOT"
 coreAuthSnapshot = "1.3.06-20241014.203804-1"
 
@@ -41,8 +41,8 @@ medalliaAndroidSdk = "4.0.2"
 coreOtp = "0.1.0"
 
 wrdaAndroidSdk = "1.2.0"
-wrdaAndroidSdkCert = "1.2.1-CERT"
-wrdaAndroidSdkSnapshot = "1.2.1-CERT-SNAPSHOT"
+wrdaAndroidSdkCert = "1.2.2-CERT"
+wrdaAndroidSdkSnapshot = "1.2.2-CERT-SNAPSHOT"
 
 qrScanSnapshot = "1.0.2-SNAPSHOT"
 qrScan = "1.0.2"
