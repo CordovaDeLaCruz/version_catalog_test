@@ -137,8 +137,8 @@ uiMbbkKeyboard = "1.4.9"
 uiMbbkKeyboardSnapshot = "1.4.9-20240807.212122-2"
 workRuntime = "2.7.0"
 wrdaAndroidSdk = "1.2.0"
-wrdaAndroidSdkCert = "1.2.2-CERT"
-wrdaAndroidSdkSnapshot = "1.2.2-CERT-SNAPSHOT"
+wrdaAndroidSdkCert = "1.2.3-CERT"
+wrdaAndroidSdkSnapshot = "1.2.3-CERT-SNAPSHOT"
 
 [libraries]
 adobe-analytics = {group = "com.adobe.marketing.mobile", name = "analytics", version.ref = "adobeAnalytics" }
