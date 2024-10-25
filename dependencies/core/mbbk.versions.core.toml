@@ -8,9 +8,9 @@ mbbkCiamEthical = "1.3.27-EH-SNAPSHOT"
 mbbkCiamSnapshot = "1.3.27.06-20241017.180425-7"
 
 coreAuth = "1.4.0"
-coreAuthCert = "1.4.0-EH"
+coreAuthCert = "1.4.1-EH"
 coreAuthEthical = "1.2.9-EH-SNAPSHOT"
-coreAuthSnapshot = "1.3.06-20241014.203804-1"
+coreAuthSnapshot = "1.4.0-20241024.171145-11"
 
 coreNetworking = "2.7.0"
 coreNetworkingSnapshot = "2.7.0-SNAPSHOT"
