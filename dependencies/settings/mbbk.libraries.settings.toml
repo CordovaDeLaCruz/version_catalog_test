@@ -90,6 +90,7 @@ androidx-test-expresso-expressoCore = { module = "androidx.test.espresso:espress
 guardsquare-dexguardGradlePlugin = { module = "com.guardsquare:dexguard-gradle-plugin", version.ref = "guardsquareDexguardGradlePlugin" }
 guardsquare-dexguardRasp = { module = "com.guardsquare:dexguard-rasp", version.ref = "guardsquareDexguard" }
 guardsquare-dexguardRuntime = { module = "com.guardsquare:dexguard-runtime", version.ref = "guardsquareDexguard" }
+guardsquare-dexguardInvisibleMarker = { module = "com.guardsquare:invisible-annotation-marker", version.ref = "guardsquareDexguard" }
 
 jetbrains-kotlinxCoroutinesCore = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "jetbrainsKotlinxCoroutines" }
 jetbrains-kotlinxCoroutinesAndroid = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "jetbrainsKotlinxCoroutines" }

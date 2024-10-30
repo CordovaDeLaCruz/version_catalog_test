@@ -91,8 +91,8 @@ androidxTestjUnit = "1.1.5"
 androidTestRunner = "1.5.1"
 androidxTestExpressoCore = "3.5.1"
 
-guardsquareDexguardGradlePlugin = "9.8.1"
-guardsquareDexguard = "9.8.1"
+guardsquareDexguardGradlePlugin = "9.8.8"
+guardsquareDexguard = "9.8.8"
 
 jetbrainsKotlinxCoroutines = "1.6.4"
 
