@@ -134,3 +134,19 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt"
 thales-tpcSdk-snapshot = { group = "com.thalesgroup.tpcsdk", name = "tpcsdk-debug", version.ref = "tpcSdk"}
 thales-tpcSdk = { group = "com.thalesgroup.tpcsdk", name = "tpcsdk", version.ref = "tpcSdk"}
 java-dev-jna = { group = "net.java.dev.jna", name = "jna", version.ref = "jna"}
+
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "composeNavigation" }
+compose-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "composeLifecycle" }
+compose-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "composeLifecycle" }
+
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+
+constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+systemuicontroller-compose = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "systemuicontrollerCompose" }
