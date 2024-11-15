@@ -5,7 +5,7 @@ bankLinter = "1.0.0"
 ciam = "1.5.0"
 mbbkCiamCert = "1.5.0-EH"
 mbbkCiamEthical = "1.5.0-EH-SNAPSHOT"
-mbbkCiamSnapshot = "1.5.0-20241029.214812-2"
+mbbkCiamSnapshot = "1.5.01-20241115.170300-4"
 
 coreAuth = "1.4.1"
 coreAuthCert = "1.4.1-EH"
