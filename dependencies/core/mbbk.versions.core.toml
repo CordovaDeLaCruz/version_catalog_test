@@ -3,7 +3,7 @@
 bankLinter = "1.0.0"
 
 ciam = "1.5.0"
-mbbkCiamCert = "1.5.0-EH"
+mbbkCiamCert = "1.5.1-EH"
 mbbkCiamEthical = "1.5.0-EH-SNAPSHOT"
 mbbkCiamSnapshot = "1.5.01-20241115.170300-4"
 
