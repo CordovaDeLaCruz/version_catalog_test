@@ -146,9 +146,9 @@ turbine = "0.9.0"
 uiMbbkKeyboard = "1.5.0"
 uiMbbkKeyboardSnapshot = "1.5.0-20241029.210740-2"
 workRuntime = "2.7.0"
-wrdaAndroidSdk = "1.3.0"
-wrdaAndroidSdkCert = "1.3.0-CERT"
-wrdaAndroidSdkSnapshot = "1.3.0-SNAPSHOT"
+wrdaAndroidSdk = "1.4.0"
+wrdaAndroidSdkCert = "1.4.0-CERT"
+wrdaAndroidSdkSnapshot = "1.4.0-20241126.222521-15"
 
 [libraries]
 activity-compose = {group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
