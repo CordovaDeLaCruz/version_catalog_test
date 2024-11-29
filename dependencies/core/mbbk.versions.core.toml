@@ -43,9 +43,9 @@ medalliaAndroidSdk = "4.0.2"
 
 coreOtp = "0.1.0"
 
-wrdaAndroidSdk = "1.4.0"
-wrdaAndroidSdkCert = "1.4.0-CERT"
-wrdaAndroidSdkSnapshot = "1.4.0-20241126.222521-15"
+wrdaAndroidSdk = "1.4.1"
+wrdaAndroidSdkCert = "1.4.1-CERT"
+wrdaAndroidSdkSnapshot = "1.4.1-20241129.172124-2"
 
 qrScanSnapshot = "1.0.2-SNAPSHOT"
 qrScan = "1.0.2"
