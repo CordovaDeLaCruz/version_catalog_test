@@ -54,5 +54,9 @@ warda-wrdaAndroidSdk = { module = "com.bcp.warda:wrda-android-sdk", version.ref 
 warda-wrdaAndroidSdk-cert = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdkCert" }
 warda-wrdaAndroidSdk-snapshot = { module = "com.bcp.warda:wrda-android-sdk", version.ref = "wrdaAndroidSdkSnapshot" }
 
+loyalty-loyaltyAndroidSdk = { module = "com.bcp.ltsp:loyalty", version.ref = "loyaltyAndroidSdk" }
+loyalty-loyaltyAndroidSdk-cert = { module = "com.bcp.ltsp:loyalty", version.ref = "loyaltyAndroidSdkCert" }
+loyalty-loyaltyAndroidSdk-snapshot = { module = "com.bcp.ltsp:loyalty", version.ref = "loyaltyAndroidSdkSnapshot" }
+
 qr-scan-snapshot = { module = "com.bcp.core:qr", version.ref = "qrScanSnapshot"}
 qr-scan = { module = "com.bcp.core:qr", version.ref = "qrScan"}

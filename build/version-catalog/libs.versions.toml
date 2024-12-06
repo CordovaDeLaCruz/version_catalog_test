@@ -104,6 +104,9 @@ lifecycleCommonJava8 = "2.4.1"
 lifecycleExtensions = "2.2.0"
 lifecycleRuntimeKtx = "2.5.1"
 lifecycleViewmodelKtx = "2.2.0"
+loyaltyAndroidSdk = "1.0.0"
+loyaltyAndroidSdkCert = "1.0.0-CERT"
+loyaltyAndroidSdkSnapshot = "1.0.0-cert-20241205.000157-3"
 masivPushAndroidSDK = "1.1.3"
 material = "1.9.0"
 mbbk-plugin = "1.0.1.lts"
@@ -268,6 +271,9 @@ jetbrains-kotlinxCoroutinesCore = {group = "org.jetbrains.kotlinx", name = "kotl
 jetbrains-kotlinxMetadataJvm = {group = "org.jetbrains.kotlinx", name = "kotlinx-metadata-jvm", version.ref = "jetbrainsKotlinxMetadataJvm" }
 jetbrains-test-kotlinxCoroutineTest = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "jetbrainsTestKotlinxCoroutineTest" }
 jfrog-buildInfoExtractorGradle = {group = "org.jfrog.buildinfo", name = "build-info-extractor-gradle", version.ref = "jfrogBuildInfoExtractorGradle" }
+loyalty-loyaltyAndroidSdk = {group = "com.bcp.ltsp", name = "loyalty", version.ref = "loyaltyAndroidSdk" }
+loyalty-loyaltyAndroidSdk-cert = {group = "com.bcp.ltsp", name = "loyalty", version.ref = "loyaltyAndroidSdkCert" }
+loyalty-loyaltyAndroidSdk-snapshot = {group = "com.bcp.ltsp", name = "loyalty", version.ref = "loyaltyAndroidSdkSnapshot" }
 masiv-pushAndroidSDK = {group = "com.masiv.pushandroidsdk", name = "PushAndroidSDK", version.ref = "masivPushAndroidSDK" }
 mbbk-ciam = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "ciam" }
 mbbk-ciam-cert = {group = "com.bcp.core.mbbk", name = "ciam", version.ref = "mbbkCiamCert" }

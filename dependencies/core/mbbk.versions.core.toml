@@ -47,5 +47,9 @@ wrdaAndroidSdk = "1.4.1"
 wrdaAndroidSdkCert = "1.4.1-CERT"
 wrdaAndroidSdkSnapshot = "1.4.1-20241129.172124-2"
 
+loyaltyAndroidSdk = "1.0.0"
+loyaltyAndroidSdkCert = "1.0.0-CERT"
+loyaltyAndroidSdkSnapshot = "1.0.0-cert-20241205.000157-3"
+
 qrScanSnapshot = "1.0.2-SNAPSHOT"
 qrScan = "1.0.2"
